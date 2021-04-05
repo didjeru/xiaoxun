@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="WatchDialName">Watch Dial Name</string>
   <string name="abc_action_bar_home_description">Navigate home</string>
@@ -44,7 +44,7 @@
   <string name="able_alert_window_desc">Ваш мобильный телефон не разрешает приложению получить разрешение плавающего окна, и видеозвонок нельзя использовать в обычном режиме.</string>
   <string name="able_read_notification">Настройки уведомлений</string>
   <string name="able_read_notification_desc">Рекомендуется включить настройку уведомлений для своевременного получения уведомлений</string>
-  <string name="able_read_notification_desc_manual">>Настройте в телефоне разрешение уведомлений от приложения, чтобы включить уведомления</string>
+  <string name="able_read_notification_desc_manual">Настройте в телефоне разрешение уведомлений от приложения, чтобы включить уведомления</string>
   <string name="account_cancellation_failed_retry">Не выполнено. Повторите попытку позже.</string>
   <string name="account_cancellation_mitu_content" formatted="false">Учетная запись, которую вы в настоящее время используете (%s), является авторизованной учетной записью %s. После выхода из учетной записи все данные для входа в приложение MiTu и использования учетной записи будут очищены!</string>
   <string name="account_cancellation_str">Выход из учетной записи</string>
@@ -117,7 +117,7 @@
   <string name="alarm_bell_3">Lullaby</string>
   <string name="alarm_clock">Будильники</string>
   <string name="alarm_open">Хронометр</string>
-  <string name="alarmclock_max_count_prompt">Может быть только 5 активных будильников</string>
+  <string name="alarmclock_max_count_prompt">Может быть только 5 будильников</string>
   <string name="ali_ms_bind_dialog_inf">%s if you want to bind your watch, after binding he can locate the watch and view the pedometer, if you agree to cancel the authorization, you can delete it in my-watch Management-Alipay applet</string>
   <string name="ali_ms_bind_dialog_name">Alipay applet</string>
   <string name="ali_ms_bind_inf">After deleting the corresponding Alipay account, the Alipay account needs to be re-applied to view the Watch position and pedometer</string>
@@ -143,10 +143,10 @@
   <string name="apnconfig_confirm_desc">Настройка APN. Необходимо отправить текстовое сообщение на часы. Хотите настроить APN? (Если версия прошивки имеет возможность изменения конфигурации APN, при получении SMS, часы автоматически перезапустятся. Если информация APN настроена правильно, будет успешное соединение)</string>
   <string name="apnconfig_default">Восстановить APN по умолчанию</string>
   <string name="apnconfig_default_desc">Восстановление APN по умолчанию является безотзывным и отправит текстовое сообщение на часы. Вы хотите восстановить APN по умолчанию?(Если версия прошивки поддерживает конфигурацию APN, часы автоматически перезапустится после получения SMS)</string>
-  <string name="apnconfig_desc">Конфигурация APN используется только тогда, когда часы не подключаются к мобильной сети (При настройке APN необходимо заполнить номер SIM-карты, номер IMEI, APN, номер порта прокси, для восстановления APN по умолчанию необходимо заполнить номер SIM-карты, номер IMEI.Информация APN может быть получена у оператора SIM-карты. У некоторых операторов имеется услуга - доступ без настроек)</string>
+  <string name="apnconfig_desc">Конфигурация APN используется только тогда, когда часы не подключаются к мобильной сети (При настройке APN, необходимо заполнить номер SIM-карты, номер IMEI, APN, номер порта прокси. Для восстановления APN по умолчанию, необходимо заполнить номер SIM-карты, номер IMEI.Информация APN может быть получена у оператора SIM-карты. У некоторых операторов имеется услуга - доступ без настроек)</string>
   <string name="apnconfig_imei">IMEI часов</string>
   <string name="apnconfig_imei_error">IMEI часов не верный</string>
-  <string name="apnconfig_imei_hint">IMEI номер можно найти на коробке или в инструкции от часов</string>
+  <string name="apnconfig_imei_hint">IMEI номер можно найти на коробке или в инструкции</string>
   <string name="apnconfig_phonenumber_hint">Телефонный номер SIM карты в часах</string>
   <string name="apnconfig_port">Порт прокси</string>
   <string name="apnconfig_port_error">Введите порт прокси</string>
@@ -380,7 +380,7 @@
   <string name="bind_wait">Ожидайте…</string>
   <string name="bind_watch">Связанные часы</string>
   <string name="bind_weight_height_tips">Для роста и веса используются значения по умолчанию. Мы не собираем соответствующую информацию, поэтому это повлияет на точность подсчета шагов.</string>
-  <string name="bing_with_phone_tip">Привязка номера телефона для получения дополнительной информации о часах и улучшения работы пользователей</string>
+  <string name="bing_with_phone_tip">Привязка номера телефона для получения дополнительной информации о часах и улучшения работы</string>
   <string name="birthday">День рождения</string>
   <string name="blank_str" />
   <string name="blu_connect_lost">Bluetooth-соединение отключено</string>
@@ -531,7 +531,7 @@
   <string name="conversation">Вызов</string>
   <string name="copy_success">Скопировано успешно</string>
   <string name="cost_all">Итог</string>
-  <string name="cost_caller_id">АОН</string>
+  <string name="cost_caller_id">Определитель номера</string>
   <string name="cost_else">Прочие расходы</string>
   <string name="cost_flow">Стоимость трафика</string>
   <string name="current_city">Текущий город</string>
@@ -579,7 +579,9 @@
   <string name="device_number_desc">Этот номер является номером телефона часов. Чтобы сделать звонок с помощью приложения, обязательно заполните его правильно.</string>
   <string name="device_qr">QR-код часов</string>
   <string name="device_qr_remind">Отсканируйте этот QR-код и привяжите часы</string>
-  <string name="device_qr_remind_desc">Отсканируйте код, чтобы загрузить приложение и установить его, а затем снова отсканируйте QR-код. После того как администратор одобрит, вы сможете привязать часы к аккаунту.</string>
+  <string name="device_qr_remind_desc">"1. Cканируйте QR-код телефоном, скачайте и установить приложение
+2. Отсканируйте QR-код еще раз после входа в приложение и привяжите устройство
+3. После подтверждения администратором, будет предоставлен доступ"</string>
   <string name="device_silence_delete_title">Тишина на занятиях</string>
   <string name="device_silence_message_detail_new">Во время занятий, часы могут только отображать время, отправлять SOS, сохраняя при этом функцию позиционирования. Родители могут связаться с ребенком после удаленного отключения этого режима</string>
   <string name="device_silence_message_detail_old">Во время занятий, часы могут только отображать время, отправлять SOS, сохраняя при этом функцию позиционирования. Родители могут связаться с ребенком после удаленного отключения этого режима</string>
@@ -1010,7 +1012,7 @@ progress: %d%%"</string>
   <string name="map_all">Все</string>
   <string name="map_baidu">Карта Baidu</string>
   <string name="map_beijing">Beijing</string>
-  <string name="map_change_alert">Для переключения карты требуется перезапуск приложения. Подтвердите перезапуск</string>
+  <string name="map_change_alert">Для переключения карты необходим перезапуск приложения. Перезапустить?</string>
   <string name="map_chongqing">Chongqing</string>
   <string name="map_city_zhixia">Zhixia</string>
   <string name="map_country">Национальная карта</string>
@@ -1127,10 +1129,8 @@ progress: %d%%"</string>
   <string name="nfc_card_dev_menu_name">Отладка nfc карты</string>
   <string name="nfc_card_device_switch_is_off">nfc отключен</string>
   <string name="nfc_card_doorcard_admin_auth_change_data_update_failed">Невозможно передать права администратора, попробуйте еще раз</string>
-  <string name="nfc_card_doorcard_auth_change_tips">
-    <Data>"
-(Передача разрешений администратора&lt;font color=\"#f66d3e\"&gt;очистка информации&lt;/font&gt;，новый администратор может открыть карту)"</Data>
-  </string>
+  <string name="nfc_card_doorcard_auth_change_tips"><Data>"
+(Передача разрешений администратора&lt;font color=\"#f66d3e\"&gt;очистка информации&lt;/font&gt;，новый администратор может открыть карту)"</Data></string>
   <string name="nfc_card_doorcard_cardface_select">Выбрать лицо карты</string>
   <string name="nfc_card_doorcard_cardname_edit_title">Изменить название карты</string>
   <string name="nfc_card_doorcard_edittext_forbid_special_character_tips">В названии карты не поддерживаются специальные символы, пробелы и смайлы</string>
@@ -1146,147 +1146,148 @@ progress: %d%%"</string>
   <string name="nfc_card_fee_notice">Сумма к оплате</string>
   <string name="nfc_card_get_cplc_failed">Не удалось правильно использовать функцию NFC. Отмените просмотр и повторите попытку</string>
   <string name="nfc_card_get_list_waitiing_txt">Получение данных (первая запись занимает около 2-3 минут), ждите</string>
-  <string name="nfc_card_get_recharge_orders_failed">获取充值订单列表失败，请稍后重进再试</string>
-  <string name="nfc_card_get_trade_logs_failed">获取消费列表失败，请稍后重进再试</string>
-  <string name="nfc_card_guid_str">公交用卡操作指南</string>
-  <string name="nfc_card_help_str">常见问题</string>
-  <string name="nfc_card_is_not_issued_by_beijing">非北京互通卡，暂不支持</string>
-  <string name="nfc_card_issue_fee_txt">服务费</string>
-  <string name="nfc_card_issue_recharge_failed_tips">开卡充值失败，可在未完成订单对话框内点击重试</string>
-  <string name="nfc_card_issue_tips_content">开卡时请保持手机和手表网络畅通，开卡过程需要数分钟，请耐心等待</string>
-  <string name="nfc_card_issue_tips_title">开卡提醒</string>
-  <string name="nfc_card_linking_device">正在与手表建立连接</string>
-  <string name="nfc_card_manager">卡包</string>
-  <string name="nfc_card_manager_card_add_door">添加门卡</string>
-  <string name="nfc_card_manager_card_add_transit">添加交通卡</string>
-  <string name="nfc_card_manager_card_info">卡片详情</string>
-  <string name="nfc_card_manager_door_card">门卡</string>
-  <string name="nfc_card_manager_doorcard_info_card_name">卡片名称：%s</string>
-  <string name="nfc_card_manager_doorcard_info_delete_content">门卡删除后不可恢复，确认删除</string>
-  <string name="nfc_card_manager_doorcard_info_delete_failed">删除门卡失败，错误信息：%s</string>
-  <string name="nfc_card_manager_doorcard_info_delete_title">门卡删除</string>
-  <string name="nfc_card_manager_doorcard_info_delete_type_error">卡类型错误，不能进行删除</string>
-  <string name="nfc_card_manager_doorcard_info_edit_card_name">修改卡片名称</string>
-  <string name="nfc_card_manager_doorcard_info_edit_card_name_used">已有该名字的门卡，请重新编辑</string>
-  <string name="nfc_card_manager_doorcard_info_unactivate_tips">当前卡片为空白卡片，如需激活，可前往米家App</string>
-  <string name="nfc_card_manager_nfc_guid">用卡指南</string>
-  <string name="nfc_card_manager_str">卡片管理</string>
-  <string name="nfc_card_manager_transit_guid">交通卡使用指南</string>
-  <string name="nfc_card_menu_name">交通卡</string>
-  <string name="nfc_card_no_default_card_tips">请设置默认卡，否则无法刷卡</string>
-  <string name="nfc_card_number_string">卡号:%s</string>
-  <string name="nfc_card_offline_tips">设备不在线，请将设备联网后重新进入</string>
-  <string name="nfc_card_order_balance_str">订单金额</string>
-  <string name="nfc_card_order_consume_no_data">暂无消费记录</string>
-  <string name="nfc_card_order_date_str">时间</string>
-  <string name="nfc_card_order_has_issued_str">已开通</string>
-  <string name="nfc_card_order_id_str">订单编号</string>
-  <string name="nfc_card_order_is_not_paid">您的订单还未支付</string>
-  <string name="nfc_card_order_issued_str">未开通</string>
-  <string name="nfc_card_order_processing">待处理</string>
-  <string name="nfc_card_order_recharge_no_data">暂无充值记录</string>
-  <string name="nfc_card_order_refund_waiting_txt">正在处理退款，请您耐心等待</string>
-  <string name="nfc_card_order_status_str">订单状态</string>
-  <string name="nfc_card_pay_failed">支付失败</string>
-  <string name="nfc_card_protoco_ver_app_err">请先升级App版本，再体验全新加速NFC功能</string>
-  <string name="nfc_card_protoco_ver_dev_err">请先升级设备版本，再体验全新加速NFC功能</string>
-  <string name="nfc_card_refund_success">退款成功</string>
-  <string name="nfc_card_set_default_failed">设置默认卡失败</string>
-  <string name="nfc_card_set_default_succ">设置默认卡成功</string>
-  <string name="nfc_card_status_date_invalid">卡片日期错误，请联系客服处理</string>
-  <string name="nfc_card_status_date_outtime">卡片已过期</string>
-  <string name="nfc_card_status_in_blacklist">卡片为黑名单卡片，请联系客服处理</string>
-  <string name="nfc_card_status_invalid">非启用状态卡片</string>
-  <string name="nfc_card_status_negative">卡片信息错误，请联系客服处理</string>
-  <string name="nfc_card_update_card_failed">更新卡片失败，请重试</string>
-  <string name="nfc_card_update_card_failed_tips">卡片状态有误，请检查清卡步骤</string>
-  <string name="nfc_card_xiaomi_auth_content">需要授权小米账号才可添加交通卡，是否确认授权</string>
-  <string name="nfc_card_xiaomi_auth_title">小米授权</string>
-  <string name="nfc_connect_device_btn">连接手表</string>
-  <string name="nfc_coupon_can_not_use">该费用下，优惠券不可用</string>
-  <string name="nfc_coupon_do_not_use">不使用优惠券</string>
-  <string name="nfc_coupon_txt">优惠券</string>
-  <string name="nfc_creat_order_failed">创建订单失败，%s</string>
-  <string name="nfc_default_card_title">默认卡</string>
-  <string name="nfc_detail_balance_txt">余额</string>
-  <string name="nfc_detail_order_list_txt">交易记录</string>
-  <string name="nfc_detail_recharge_txt">充值</string>
-  <string name="nfc_device_linking_str">正在连接</string>
-  <string name="nfc_device_unlink_info">手表连接已断开</string>
-  <string name="nfc_do_issue_failed">开卡失败，错误码：%s</string>
-  <string name="nfc_do_recharge_failed">充值失败，错误码：%s</string>
-  <string name="nfc_doorcard_add_card">添加门卡</string>
-  <string name="nfc_doorcard_back_to_mihome">返回米家APP</string>
-  <string name="nfc_doorcard_card_manager_xiaomi_auth_content">需要授权小米账号才可使用卡包功能，是否确认授权</string>
-  <string name="nfc_doorcard_data_upload_to_server_failed">上传卡片信息失败，请检查网络连接后重试</string>
-  <string name="nfc_doorcard_device_unsupport_nfc">(不支持门卡功能)</string>
+  <string name="nfc_card_get_recharge_orders_failed">Не удалось получить баланс. Повторите попытку позднее</string>
+  <string name="nfc_card_get_trade_logs_failed">Не удалось получить списания. Повторите попытку позденее</string>
+  <string name="nfc_card_guid_str">Руководство по автобусной карте</string>
+  <string name="nfc_card_help_str">Общие проблемы</string>
+  <string name="nfc_card_is_not_issued_by_beijing">Не Пекинская интерактивная карта, не поддерживается</string>
+  <string name="nfc_card_issue_fee_txt">Плата за обслуживание</string>
+  <string name="nfc_card_issue_recharge_failed_tips">Не удалось открыть карту и пополнить счет, вы можете нажать, чтобы повторить попытку</string>
+  <string name="nfc_card_issue_tips_content">Открывая карту, держите мобильный телефон подключенными к сети. Процесс открытия карты занимает несколько минут, пожалуйста, подождите</string>
+  <string name="nfc_card_issue_tips_title">Напоминание об открытии карты</string>
+  <string name="nfc_card_linking_device">Установка связи с часами</string>
+  <string name="nfc_card_manager">Менеджер карт</string>
+  <string name="nfc_card_manager_card_add_door">Добавить ключ-карту</string>
+  <string name="nfc_card_manager_card_add_transit">Добавить транспортную карту</string>
+  <string name="nfc_card_manager_card_info">Реквизиты карты</string>
+  <string name="nfc_card_manager_door_card">Ключ-карта</string>
+  <string name="nfc_card_manager_doorcard_info_card_name">Название карты：%s</string>
+  <string name="nfc_card_manager_doorcard_info_delete_content">После удаления ключ-карты ее нельзя будет восстановить, подтвердите удаление</string>
+  <string name="nfc_card_manager_doorcard_info_delete_failed">Не удалось удалить ключ-карту, сообщение об ошибке：%s</string>
+  <string name="nfc_card_manager_doorcard_info_delete_title">Удаление ключ-карты</string>
+  <string name="nfc_card_manager_doorcard_info_delete_type_error">Тип карты неправильный и не может быть удален</string>
+  <string name="nfc_card_manager_doorcard_info_edit_card_name">Изменить название карты</string>
+  <string name="nfc_card_manager_doorcard_info_edit_card_name_used">Ключ-карта с таким названием уже существует, отредактируйте ее</string>
+  <string name="nfc_card_manager_doorcard_info_unactivate_tips">Текущая карта-это пустая карта, если вам нужно активировать ее, вы можете перейти в приложение Mi Home</string>
+  <string name="nfc_card_manager_nfc_guid">Руководство по использованию карт</string>
+  <string name="nfc_card_manager_str">Управление картами</string>
+  <string name="nfc_card_manager_transit_guid">Как пользоваться транспортной кратой</string>
+  <string name="nfc_card_menu_name">Транспортная карта</string>
+  <string name="nfc_card_no_default_card_tips">Пожалуйста, установите карту по умолчанию</string>
+  <string name="nfc_card_number_string">Номер карты:%s</string>
+  <string name="nfc_card_offline_tips">Устройство не подключено к сети</string>
+  <string name="nfc_card_order_balance_str">Баланс</string>
+  <string name="nfc_card_order_consume_no_data">Нет записей о затратах</string>
+  <string name="nfc_card_order_date_str">час</string>
+  <string name="nfc_card_order_has_issued_str">Открытый</string>
+  <string name="nfc_card_order_id_str">номер заказа</string>
+  <string name="nfc_card_order_is_not_paid">Ваш заказ не был оплачен</string>
+  <string name="nfc_card_order_issued_str">Не открывается</string>
+  <string name="nfc_card_order_processing">Ожидается...</string>
+  <string name="nfc_card_order_recharge_no_data">Нет транзакций о пополнении счета</string>
+  <string name="nfc_card_order_refund_waiting_txt">Нет транзакций на возврат денег, ждите</string>
+  <string name="nfc_card_order_status_str">Статус заказа</string>
+  <string name="nfc_card_pay_failed">Платеж не прошел</string>
+  <string name="nfc_card_protoco_ver_app_err">Пожалуйста, обновите версию приложения, прежде чем испытать новую функцию NFC</string>
+  <string name="nfc_card_protoco_ver_dev_err">Пожалуйста, обновите версию устройства, прежде чем испытать новую функцию NFC</string>
+  <string name="nfc_card_refund_success">Возврат успешен</string>
+  <string name="nfc_card_set_default_failed">Не удалось установить карту по умолчанию</string>
+  <string name="nfc_card_set_default_succ">Карта по умолчанию установлена</string>
+  <string name="nfc_card_status_date_invalid">Дата карты неверна, обратитесь в службу поддержки клиентов</string>
+  <string name="nfc_card_status_date_outtime">Срок действия карты истек</string>
+  <string name="nfc_card_status_in_blacklist">Карта внесена в черный список, обратитесь в службу поддержки клиентов</string>
+  <string name="nfc_card_status_invalid">Неактивная карта</string>
+  <string name="nfc_card_status_negative">Информация о карте неверна, обратитесь в службу поддержки клиентов</string>
+  <string name="nfc_card_update_card_failed">Не удалось обновить карту, попробуйте еще раз</string>
+  <string name="nfc_card_update_card_failed_tips">Статус карты неверный, пожалуйста, проверьте шаги по очистке карты</string>
+  <string name="nfc_card_xiaomi_auth_content">Вам необходимо авторизовать свою учетную запись Xiaomi, чтобы добавить транспортную карту</string>
+  <string name="nfc_card_xiaomi_auth_title">Авторизовано Xiaomi</string>
+  <string name="nfc_connect_device_btn">Подключите часы</string>
+  <string name="nfc_coupon_can_not_use">Купоны не доступны</string>
+  <string name="nfc_coupon_do_not_use">Нет купонов</string>
+  <string name="nfc_coupon_txt">Купон</string>
+  <string name="nfc_creat_order_failed">Не удалось создать заказ, %s</string>
+  <string name="nfc_default_card_title">Карта по умолчанию</string>
+  <string name="nfc_detail_balance_txt">Остаток средств</string>
+  <string name="nfc_detail_order_list_txt">Запись транзакции</string>
+  <string name="nfc_detail_recharge_txt">Перезарядка</string>
+  <string name="nfc_device_linking_str">Соединение</string>
+  <string name="nfc_device_unlink_info">Часы отключены</string>
+  <string name="nfc_do_issue_failed">Не удалось открыть карту, код ошибки: %s</string>
+  <string name="nfc_do_recharge_failed">Не удалось пополнить счет, код ошибки: %s</string>
+  <string name="nfc_doorcard_add_card">Добавить ключ-карту</string>
+  <string name="nfc_doorcard_back_to_mihome">Вернуться в MiHome</string>
+  <string name="nfc_doorcard_card_manager_xiaomi_auth_content">Вам необходимо авторизовать учетную запись MiHome для использования функции ключ-карт</string>
+  <string name="nfc_doorcard_data_upload_to_server_failed">Не удалось загрузить информацию о карте, проверьте сетевое подключение и повторите попытку</string>
+  <string name="nfc_doorcard_device_unsupport_nfc">(Не поддерживает функцию ключ-карты)</string>
   <string name="nfc_doorcard_edit_name_estate">Сообщество</string>
-  <string name="nfc_doorcard_edit_name_title">编辑卡片名称</string>
-  <string name="nfc_doorcard_edit_name_to_mihome">去激活门卡</string>
-  <string name="nfc_doorcard_edit_name_unit">单元</string>
-  <string name="nfc_doorcard_get_data_failed">获取服务器信息失败</string>
-  <string name="nfc_doorcard_go_issue">立即开卡</string>
-  <string name="nfc_doorcard_issue_failed">开卡失败,%s</string>
-  <string name="nfc_doorcard_issue_failed_without_msg">开卡失败，请稍后重试。</string>
-  <string name="nfc_doorcard_issue_result_title">编辑卡片信息</string>
-  <string name="nfc_doorcard_issue_waiting_txt">正在开卡，大约需要1分钟，请耐心等待。</string>
-  <string name="nfc_doorcard_name_has_used">名称已经存在，请重新设置。</string>
-  <string name="nfc_doorcard_no_device_support">当前账号暂无设备支持门卡功能，可选择绑定其他设备或切换其他账号</string>
-  <string name="nfc_doorcard_no_device_txt">当前账号暂无绑定设备，可绑定后重试或切换其他账号</string>
-  <string name="nfc_doorcard_no_login_txt">"米兔APP尚未登录 
- 您可前往米兔APP登录后再试"</string>
-  <string name="nfc_doorcard_no_select_device">请从列表中选择设备</string>
-  <string name="nfc_doorcard_xiaomi_auth_content">需要授权小米账号才可添加门卡，是否确认授权</string>
-  <string name="nfc_error_msg">错误原因:%s</string>
-  <string name="nfc_get_card_list_device_disconnect">网络异常，请检查手表或者手机网络是否连接正常</string>
-  <string name="nfc_get_card_list_network_unavailable">网络连接不可用，请检查手机网络</string>
-  <string name="nfc_get_card_list_server_unavailable">服务器异常，请稍后再试</string>
-  <string name="nfc_no_coupon_txt">无可用优惠券</string>
-  <string name="nfc_no_default_card_tips">还没有绑定交通卡</string>
-  <string name="nfc_open_card_wait_str">正在开卡，大约需要3-5分钟，请您耐心等待。</string>
-  <string name="nfc_order_result_card_num">卡号:%s</string>
-  <string name="nfc_order_result_order_balance">订单金额:%s元</string>
-  <string name="nfc_order_result_order_num">订单号:%s</string>
-  <string name="nfc_order_result_success">操作成功!</string>
-  <string name="nfc_recharge_consume_order_record">消费</string>
-  <string name="nfc_recharge_order_record">充值</string>
-  <string name="nfc_recharge_wait_str">正在充值，大约需要30-60秒，请您耐心等待。</string>
-  <string name="nfc_server_i_agree_txt">我同意</string>
-  <string name="nfc_server_txt">《服务条款》</string>
-  <string name="nfc_transit_card_list_title">公交卡列表</string>
-  <string name="nfc_unfinish_order_dlg_content">您有未完成的订单需处理</string>
-  <string name="nfc_unfinish_order_dlg_refund">退款</string>
-  <string name="nfc_unfinish_order_dlg_title">未完成订单提示</string>
-  <string name="nfc_xmserver_i_agree_txt">我同意小米支付</string>
-  <string name="nfc_xmserver_txt">《服务协议》</string>
+  <string name="nfc_doorcard_edit_name_title">Изменить название карты</string>
+  <string name="nfc_doorcard_edit_name_to_mihome">Деактивируйте ключ-карту</string>
+  <string name="nfc_doorcard_edit_name_unit">Ед. изм</string>
+  <string name="nfc_doorcard_get_data_failed">Не удалось получить информацию о сервере</string>
+  <string name="nfc_doorcard_go_issue">Откройте карту прямо сейчас</string>
+  <string name="nfc_doorcard_issue_failed">Не удалось открыть карту,%s</string>
+  <string name="nfc_doorcard_issue_failed_without_msg">Не удалось открыть карту. Повторите попытку позднее</string>
+  <string name="nfc_doorcard_issue_result_title">Редактировать информацию о карте</string>
+  <string name="nfc_doorcard_issue_waiting_txt">Карта открывается, это занимает около 1 минуты, пожалуйста, подождите</string>
+  <string name="nfc_doorcard_name_has_used">Имя уже существует</string>
+  <string name="nfc_doorcard_no_device_support">">В текущей учетной записи нет устройства, которое поддерживает функцию ключ-карты, вы можете выбрать привязку к другим устройствам или переключиться на другие учетные данные</string>
+  <string name="nfc_doorcard_no_device_txt">Ни одно устройство не привязано к текущей учетной записи, вы можете попробовать еще раз после привязки или переключиться на другую учетную запись</string>
+  <string name="nfc_doorcard_no_login_txt">"Mitu APP больше не подключено
+Вы можете зайти в Mitu APP, чтобы авторизоваться еще раз"</string>
+  <string name="nfc_doorcard_no_select_device">Выберите устройство</string>
+  <string name="nfc_doorcard_xiaomi_auth_content">Нужно авторизовать учетную запись MiHome,чтобы добавить ключ-карту</string>
+  <string name="nfc_error_msg">Причина ошибки:%s</string>
+  <string name="nfc_get_card_list_device_disconnect">Нет связи. Проверьте, правильно ли подключены часы или сеть мобильного телефона</string>
+  <string name="nfc_get_card_list_network_unavailable">Подключение к Интернету отсутствует, пожалуйста, проверьте сеть мобильной связи</string>
+  <string name="nfc_get_card_list_server_unavailable">Сервер недоступен, повторите попытку позже</string>
+  <string name="nfc_no_coupon_txt">Купонов нет</string>
+  <string name="nfc_no_default_card_tips">Транспортная карта еще не привязана</string>
+  <string name="nfc_open_card_wait_str">Карта открывается, это занимает около 3-5 минут</string>
+  <string name="nfc_order_result_card_num">Номер карты:%s</string>
+  <string name="nfc_order_result_order_balance">Сумма заказа:%s元</string>
+  <string name="nfc_order_result_order_num">Номер заказа:%s</string>
+  <string name="nfc_order_result_success">Операция прошла успешно!</string>
+  <string name="nfc_recharge_consume_order_record">Потребление</string>
+  <string name="nfc_recharge_order_record">Перезарядка</string>
+  <string name="nfc_recharge_wait_str">Перезарядка занимает около 30-60 секунд</string>
+  <string name="nfc_server_i_agree_txt">Согласен</string>
+  <string name="nfc_server_txt">《Условия обслуживания》</string>
+  <string name="nfc_transit_card_list_title">Список транспортных карт</string>
+  <string name="nfc_unfinish_order_dlg_content">У вас есть незавершенные заказы, которые нужно обработать</string>
+  <string name="nfc_unfinish_order_dlg_refund">Возврат денег</string>
+  <string name="nfc_unfinish_order_dlg_title">Напоминание о незавершенном заказе</string>
+  <string name="nfc_xmserver_i_agree_txt">Я согласен с Xiaomi Pay</string>
+  <string name="nfc_xmserver_txt">《Сервисное соглашение》</string>
   <string name="nickname">Имя</string>
-  <string name="no">否</string>
-  <string name="no_alarm_clock">Бедильники не установлены</string>
+  <string name="no">Нет</string>
+  <string name="no_alarm_clock">Будильники не установлены</string>
   <string name="no_auto_answer">Запрет автоответа</string>
   <string name="no_auto_answer_desc">Часы не будут отвечать на звонок автоматически</string>
   <string name="no_baby_line">Не найдено подходящего маршрута к ребенку</string>
   <string name="no_call">Нет звонков за день</string>
   <string name="no_call_log">Звонков пока нет</string>
-  <string name="no_camera_permission_content">未获得相机拍摄权限，请在手机设置应用管理界面勾选相机权限再回应用操作。</string>
-  <string name="no_camera_permission_title">相机权限</string>
-  <string name="no_comments">暂无评论数据</string>
+  <string name="no_camera_permission_content">Вы не получили разрешение камеры, проверьте разрешение камеры в интерфейсе управления приложением настроек телефона, а затем вернитесь к работе приложения</string>
+  <string name="no_camera_permission_title">Разрешения камеры</string>
+  <string name="no_comments">Нет комментариев</string>
   <string name="no_data">Нет данных</string>
   <string name="no_group_chat">Нет сообщений в семейном чате, отправьте первое сообщение</string>
   <string name="no_group_message">На данный момент нет сообщений</string>
   <string name="no_matched_plmn">Нет подходящего PLMN</string>
   <string name="no_more_calllogs">Нет записей в журнале вызовов</string>
   <string name="no_notice_message">На данный момент нет сообщений</string>
-  <string name="no_over_100">超过100个字符</string>
+  <string name="no_over_100">Не более 100 символов</string>
+  <string name="APKTOOL_DUMMY_4d6" />
   <string name="no_private_chat">Нет сообщений приватного чата, отправьте первое сообщение</string>
   <string name="no_private_messge">На данный момент нет сообщений</string>
   <string name="no_recharge_record">Нет записи о пополнении счета за месяц</string>
   <string name="no_relation">Выберите родство или введите правильный ник</string>
   <string name="no_result">Извините, актальных данных не найдено!</string>
-  <string name="no_select_wifi">未选择WiFi</string>
+  <string name="no_select_wifi">Не выбран WiFi</string>
   <string name="no_spam_msg">Нет заблокированных текстовых сообщений</string>
   <string name="no_status">Нет данных от часов</string>
-  <string name="no_storage_permission">App运行缺少存储空间权限</string>
-  <string name="no_storage_permission_tips">没有手机存储权限，无法执行操作</string>
+  <string name="no_storage_permission">Приложение работает без разрешения на хранение</string>
+  <string name="no_storage_permission_tips">Невозможно выполнить операцию без разрешения на хранение данных в телефоне</string>
   <string name="no_text_warning">Вы не написали текст для отправки</string>
   <string name="no_update">Уже установлена последняя версия</string>
   <string name="no_used_datas">Нед данных об использовании</string>
@@ -1296,24 +1297,24 @@ progress: %d%%"</string>
   <string name="normal_mode_setting">Настройка нормального режима</string>
   <string name="normal_summary">Обычная частота автоматического позиционирования, большое энергопотребление</string>
   <string name="not_download_dial_for_insufficient_memory">В часах недостаточно места для хранения</string>
-  <string name="not_install_des">为了保证评分的公正性，请安装使用后来评分</string>
-  <string name="not_online">Другая сторона не в сети</string>
-  <string name="not_resolve">还没解决您的问题？</string>
-  <string name="not_support_auto_savepower">设备不支持此模式</string>
+  <string name="not_install_des">">Чтобы обеспечить справедливость оценки, установите и используйте более позднюю оценку</string>
+  <string name="not_online">Не в сети</string>
+  <string name="not_resolve">Проблема не решена?</string>
+  <string name="not_support_auto_savepower">Этот режим не поддерживается устройством</string>
   <string name="not_support_device">Неподдерживаемое устройство</string>
-  <string name="not_support_msg_type">当前版本不支持该类型消息，请升级APP版本</string>
-  <string name="not_support_steps">Версия прошивки часов слишком низкая, эта функция не поддерживается в настоящее время, пожалуйста, обновите прошивку часов</string>
+  <string name="not_support_msg_type">Текущая версия не поддерживает этот тип сообщений, обновите версию приложения</string>
+  <string name="not_support_steps">Версия прошивки часов устарела, функция не поддерживается, обновите прошивку часов</string>
   <string name="not_support_type">Неопознанный тип</string>
-  <string name="notice_manage_promp">关闭后仅接收消息但不提醒</string>
+  <string name="notice_manage_promp">Получать только сообщения, без напоминаний после закрытия</string>
   <string name="notice_message">Уведомления %s</string>
-  <string name="notice_message2">动态消息</string>
+  <string name="notice_message2">Статус</string>
   <string name="notice_safe_area_title">ЗОНА</string>
   <string name="notice_setting">Настройка уведомлений</string>
   <string name="notice_sos_title">SOS сообщения</string>
   <string name="null_location">Местоположение не определено</string>
   <string name="null_location_other">Нет информации</string>
   <string name="number_not_null">Номер не может быть пустым</string>
-  <string name="number_not_same">成员主副号码不能相同</string>
+  <string name="number_not_same">Номера участников не могут совпадать</string>
   <string name="number_recycle">Номер %s восстановлен</string>
   <string name="number_recycled">Номер восстановлен</string>
   <string name="offline_city_hasnew">（Новый）</string>
@@ -1339,28 +1340,28 @@ progress: %d%%"</string>
   <string name="only_vibrate">Только вибрация</string>
   <string name="only_volume">Только звук</string>
   <string name="open">Включено</string>
-  <string name="open_collision_prompt">开启后定位器发生碰撞推送消息提醒；请在静止状态下开启该功能。</string>
+  <string name="open_collision_prompt">После включения локатор будет уведомлять о пересечении с помощью push-уведомления; пожалуйста, включите эту функцию в статическом состоянии</string>
   <string name="open_mylocation_content_gps">Ваши местоположения будет синхронно отображаться на карте. Для более точного определения местоположения включите GPS</string>
   <string name="open_mylocation_content_gps_wifi">Ваши местоположения будет синхронно отображаться на карте. Для более точного определения местоположения включите GPS и WiFi</string>
   <string name="open_mylocation_content_wifi">Ваши местоположения будет синхронно отображаться на карте. Для более точного определения местоположения включите WiFi</string>
-  <string name="open_mylocation_fail">手机定位失败，请检查下GPS或者网络是否开启</string>
+  <string name="open_mylocation_fail">Ошибка позиционирования мобильного телефона, проверьте, включен ли GPS или сеть</string>
   <string name="open_mylocation_title">Включить местоположение телефона</string>
   <string name="open_state">Включено</string>
-  <string name="open_thire_app_error">没有安装相应的应用，无法打开</string>
-  <string name="open_thire_app_info">您将离开本应用，用其他应用打开链接</string>
+  <string name="open_thire_app_error">Соответствующее приложение не установлено и не может быть открыто</string>
+  <string name="open_thire_app_info">Вы выйдете из приложения и откроете ссылку с другим приложением</string>
   <string name="open_trace_description">"При включении, часы будут сообщать в приложение свое местоположение ​​через регулярные промежутки времени. Вы можете проверить маршрут движения часов в любое время.
 Совет. Этот режим потребляет много энергии и время автономной работы часов сокращается!"</string>
   <string name="opening">Включается...</string>
-  <string name="operation_mode_remmind">"选择不同定位模式，定位频率不同
-高频率定位，定位点更多，运动轨迹更细致"</string>
+  <string name="operation_mode_remmind">"Выберите различные режимы позиционирования, различные частоты позиционирования
+Высокочастотное позиционирование, больше опорных точек, более детальная траектория"</string>
   <string name="operation_mode_setting">Режим</string>
   <string name="operation_try_again">Часы настраиваются, ожидайте</string>
-  <string name="other_issue">其他问题</string>
+  <string name="other_issue">Другие вопросы</string>
   <string name="other_location_login_tips">Уже вошли в другом месте! Пожалуйста, обратите внимание на безопасность аккаунта</string>
   <string name="other_location_login_tips_1">%s время входа истекло. Пожалуйста, войдите снова.</string>
   <string name="otp_info_reverify">Your card has been verified</string>
   <string name="output">Экспортировать это сообщение</string>
-  <string name="overall_rating">综合评论</string>
+  <string name="overall_rating">Комплексный обзор</string>
   <string name="passport_access_denied">Access denied</string>
   <string name="passport_account_hint_text">Email address, phone number or Mi Account ID</string>
   <string name="passport_account_identity_title">Verify your identity</string>
@@ -1380,9 +1381,7 @@ progress: %d%%"</string>
   <string name="passport_back">Back</string>
   <string name="passport_bad_authentication">Invalid username or password</string>
   <string name="passport_barcode_add_account_prompt">To connect an account, scan the QR code again after you sign in.</string>
-  <string name="passport_change_account">
-    <u>Change account</u>
-  </string>
+  <string name="passport_change_account"><u>Change account</u></string>
   <string name="passport_change_phone_number">Switch numbers</string>
   <string name="passport_checking_account">Checking password…</string>
   <string name="passport_checking_input">Checking input…</string>
@@ -1427,9 +1426,7 @@ To activate your account, follow the
   <string name="passport_error_verify_activator_phone_title">"Couldn't verify phone number"</string>
   <string name="passport_failed_to_send_activate_email">"Couldn't send activation email"</string>
   <string name="passport_find_password_on_web_msg">Visit account.mi.com to reset your password.</string>
-  <string name="passport_forget_password">
-    <u>Forgot password</u>
-  </string>
+  <string name="passport_forget_password"><u>Forgot password</u></string>
   <string name="passport_forget_password_no_underline">Forgot password</string>
   <string name="passport_get_back_pwd">Retrieve account password</string>
   <string name="passport_get_verify_code">Get code</string>
@@ -1455,9 +1452,7 @@ To activate your account, follow the
   <string name="passport_login_recycle_account_no">Nope</string>
   <string name="passport_login_recycle_account_yes">Yes</string>
   <string name="passport_login_title">Sign in to your Mi Account</string>
-  <string name="passport_login_using_other_ways">
-    <u>Other ways to sign in</u>
-  </string>
+  <string name="passport_login_using_other_ways"><u>Other ways to sign in</u></string>
   <string name="passport_message_dialog_title">SMS with verifying codes</string>
   <string name="passport_next">Next</string>
   <string name="passport_no">No</string>
@@ -1479,9 +1474,7 @@ To activate your account, follow the
   <string name="passport_quick_login_step2_title">2-step verification</string>
   <string name="passport_quick_login_title">Enter your password</string>
   <string name="passport_quick_register">Sign up</string>
-  <string name="passport_quick_register_notice">
-    <u>"Don't have a Mi Account? Create one."</u>
-  </string>
+  <string name="passport_quick_register_notice"><u>"Don't have a Mi Account? Create one."</u></string>
   <string name="passport_re_get_verify_code">Get code again</string>
   <string name="passport_re_register">Sign up again</string>
   <string name="passport_recycle_account_prompt">Is this your Mi Account?</string>
@@ -1495,9 +1488,7 @@ To activate your account, follow the
   <string name="passport_reg_success">Account created</string>
   <string name="passport_reg_success_summary">%1$s has been bound with your account. You can use it to sign in or to reset your password.</string>
   <string name="passport_reg_type_email">Use email address</string>
-  <string name="passport_reg_using_other_phone">
-    <u>Use alternate phone number</u>
-  </string>
+  <string name="passport_reg_using_other_phone"><u>Use alternate phone number</u></string>
   <string name="passport_reg_using_other_phone_number_prompt">"Create a new account using "</string>
   <string name="passport_reg_using_phone_number_prompt">Create account using phone number</string>
   <string name="passport_reg_via_sms_alert">An outgoing SMS message may be required to activate this service. Your carrier will charge you for this message.</string>
@@ -1505,9 +1496,7 @@ To activate your account, follow the
   <string name="passport_register">Create an account</string>
   <string name="passport_register_account_goto_email">Go to inbox</string>
   <string name="passport_register_account_verified_confirm">Account verified</string>
-  <string name="passport_register_by_email">
-    <u>Create an account using email address</u>
-  </string>
+  <string name="passport_register_by_email"><u>Create an account using email address</u></string>
   <string name="passport_register_restricted">Too many accounts have been associated with this number, try a different one</string>
   <string name="passport_register_restricted_title">"Can't use this phone number"</string>
   <string name="passport_registered_phone_num">Phone: %s</string>
@@ -1618,28 +1607,28 @@ To activate your account, follow the
   <string name="privacy">Политика конфиденциальности</string>
   <string name="privacy_policy">《Пользовательское соглашение и Политика конфиденциальности》</string>
   <string name="privacy_policy_info">" Вы должны согласиться с 《Пользовательское соглашение и Политика конфиденциальности》. Вам нужно быть подключенным к сети для прочтения и принятия. Принимаете условия?"</string>
-  <string name="privacy_policy_title">Декларация и условия</string>
-  <string name="privacy_prompt_desc">"欢迎您使用%s。为了更好的为您服务，我们可能向系统申请以下必要权限（用于系统的基本服务和功能）：
+  <string name="privacy_policy_title">Условия и положения</string>
+  <string name="privacy_prompt_desc">"Вы можете использовать %s. Чтобы лучше обслуживать вас, мы можем обратиться к системе за следующими необходимыми разрешениями (для основных служб и функций системы）：
 
- · 读写联系人信息
-在应用中方便用户从通讯录选取号码，但应用不会上传任何通讯录数据。
+ · Чтение и запись контактной информации
+В приложении пользователям легко выбирать номера из адресной книги, но приложение не загружает никаких данных адресной книги.
 
- · 获取设备的定位信息
-应用会在主动定位、安全守护、导航和获取当前城市位置等服务中使用您的位置信息。
+ · Получить информацию о местоположении вашего устройства
+Приложение использует информацию о вашем местоположении в таких сервисах, как активное местоположение, безопасность, навигация и получение текущего местоположения города
 
- · 读写设备上的照片及文件
-获取相册中的图片用于设置用户头像、发送图片消息和获取二维码图片等。
+ · Чтение и запись фотографий и файлов на вашем устройстве
+Получить картинку в альбоме используется для установки аватара пользователя, отправки графических сообщений и получения двумерного кода картинки и так далее
 
- · 获取设备的麦克风权限
-获取设备的麦克风权限用于发送语音消息及视频通话。
+ · Получите разрешения на микрофон для вашего устройства
+Получите разрешения микрофона для вашего устройства для отправки голосовых сообщений и видеозвонков
 
- · 获取设备的摄像头权限
-获取设备的摄像头权限用于发送图片消息及视频通话。
+ · Получите разрешения камеры для вашего устройства
+Получите разрешения камеры для вашего устройства для отправки графических сообщений и видеозвонков
 
- 详细内容请仔细阅读《Политика конфиденциальности》和《Пользовательсоке соглашение》，感谢您的信任。"</string>
-  <string name="privacy_prompt_login_desc">已阅读并同意《Политика конфиденциальности》和《Пользовательсоке соглашение》</string>
+ Для получения дополнительной информации, пожалуйста, внимательно прочитайте 《Политика конфиденциальности》 и 《Пользовательсоке соглашение》，спасибо за ваше доверие"</string>
+  <string name="privacy_prompt_login_desc">Ознакомились и согласны с 《Политика конфиденциальности》 и 《Пользовательсоке соглашение》</string>
   <string name="privacy_prompt_protection_policy">《Политика конфиденциальности》</string>
-  <string name="privacy_prompt_toast_desc">请勾选并同意隐私保护政策和用户服务协议</string>
+  <string name="privacy_prompt_toast_desc">Пожалуйста, проверьте и согласитесь с Политикой конфиденциальности и Соглашением об обслуживании пользователей</string>
   <string name="privacy_prompt_user_service">《Пользовательсоке соглашение》</string>
   <string name="prompt">Предупреждение</string>
   <string name="prompt_not_saved">Изменения не сохраняться, Вы подтверждаете?</string>
@@ -1651,10 +1640,10 @@ To activate your account, follow the
   <string name="qq_nickname">Логин QQ ：</string>
   <string name="qq_not_installed">QQ клиент не установлен</string>
   <string name="qqkongjian">Пространство QQ</string>
-  <string name="qr_tips">"1. Пожалуйста, подтвердите, что часы включены и сеть в норме.
-\u0009Примечание: не используйте обрезанную симкарту
-2. Откройте настройки часов и выберите QR-код."</string>
-  <string name="qr_tips_addfriends">将二维码放入框内，即可自动扫描</string>
+  <string name="qr_tips">"Пожалуйста, убедитесь, что устройство включено и сеть в норме
+Затем откройте Настройки часов-меню QR - кода или меню QR-кода
+Примечание: Не используйте разрезанные карты"</string>
+  <string name="qr_tips_addfriends">Поместите QR-код в квадрат, и он будет автоматически просканирован</string>
   <string name="quit">Выход</string>
   <string name="quit_another">%s семья покинута</string>
   <string name="quit_from_family">%s покинул семью</string>
@@ -1678,7 +1667,7 @@ To activate your account, follow the
   <string name="really_disconnect_wifi">Вы действительно хотите отключить соединение WiFi?</string>
   <string name="really_unbind_watch">Вы уверены, что хотите отвязать свои часы?</string>
   <string name="receive_bind_request">Получен запрос на привязку</string>
-  <string name="receive_msg_error_prompt">无法及时接收小宝贝的消息，点击查看设置方法</string>
+  <string name="receive_msg_error_prompt">Невозможно вовремя получить сообщение от ребенка, нажмите, чтобы просмотреть способ настройки</string>
   <string name="recharge_failed">Аутентификация не удалась</string>
   <string name="recharge_goon">Продолжить пополнение</string>
   <string name="recharge_money">Сумма пополнения</string>
@@ -1735,12 +1724,10 @@ To activate your account, follow the
   <string name="release_version_type_beta">Версия для внутреннего тестирования</string>
   <string name="release_version_type_dvt">Бета-версия DVT</string>
   <string name="reminder">Напоминание</string>
-  <string name="remote_loss_info_1">一开启手表挂失后，手表联网后将进入挂失锁定状态。</string>
-  <string name="remote_loss_info_2">一该状态下手表将无法使用，仅能联系手表管理员。</string>
-  <string name="remote_loss_info_3">一关闭后恢复正常使用状态。</string>
-  <string name="remote_loss_info_4">
-    <u>手表丢失如何处理</u>
-  </string>
+  <string name="remote_loss_info_1">一Как только часы будут включены, после сообщения о потере, они войдут в состояние блокировки при подключении к Интернету</string>
+  <string name="remote_loss_info_2">一Находясь в этом состоянии, часы нельзя использовать, можно связаться только с администратором часов</string>
+  <string name="remote_loss_info_3">一После закрытия вернуться к нормальному использованию</string>
+  <string name="remote_loss_info_4"><u>Как поступить с потерянными часами</u></string>
   <string name="remove">Удалить</string>
   <string name="remove_by_admin">%s исключен администратором</string>
   <string name="remove_call_member">Удалить участника вызова</string>
@@ -1791,8 +1778,8 @@ To activate your account, follow the
   <string name="save_edit">Сохранить</string>
   <string name="save_image">Сохранить изображение</string>
   <string name="save_image_data_failed">Ошибка сохранения данных обрезанного изображения：</string>
-  <string name="save_power_remmind">当前属于省电模式，安全区域无法生效，请在省电优化中修改</string>
-  <string name="save_power_remmind_206">当前属于省电模式，安全区域无法生效，请在设备管理中修改</string>
+  <string name="save_power_remmind">В настоящее время в режиме энергосбережения, безопасная зона не действует, измените в энергосбережении</string>
+  <string name="save_power_remmind_206">В настоящее время в режиме энергосбережения зона безопасности не может действовать, измените в управлении устройством</string>
   <string name="save_szone_message">Сохранение данных .......</string>
   <string name="save_update">Сохранить изменения</string>
   <string name="saved_wifi_list">Сохраненный WiFi</string>
@@ -1801,62 +1788,62 @@ To activate your account, follow the
   <string name="scan_code_invite_member">Сканируйте код, приглашайте участников</string>
   <string name="scan_qr_invite">Просмотр сканированного кода привязки</string>
   <string name="scan_wrong">Неверный QR-код</string>
-  <string name="schedule_add_class_limit">添加课程达到上限</string>
-  <string name="schedule_card_title">课程表</string>
-  <string name="schedule_class_limit">最多设置10节课</string>
-  <string name="schedule_class_name">请输入新的课程名称</string>
-  <string name="schedule_class_name_limit_0">请输入6位以内课程名</string>
-  <string name="schedule_class_name_limit_1">此课程已经存在</string>
-  <string name="schedule_class_set">%d班</string>
-  <string name="schedule_class_time_error_0">课程时间设置不合理，请重新设置</string>
-  <string name="schedule_class_time_error_1">课程时间设置冲突，请重新设置</string>
-  <string name="schedule_class_time_error_2">第%s节</string>
-  <string name="schedule_delete_cust_class">确定要删除自定义课程\"%s\"</string>
-  <string name="schedule_delete_def_class">默认课程不可删除</string>
-  <string name="schedule_edit_exit">您的修改还未保存，是否要退出编辑模式</string>
-  <string name="schedule_edit_exit_no">继续编辑</string>
-  <string name="schedule_edit_exit_yes">确认退出</string>
-  <string name="schedule_end_time">下课时间</string>
-  <string name="schedule_grade_1">一年级</string>
-  <string name="schedule_grade_2">二年级</string>
-  <string name="schedule_grade_3">三年级</string>
-  <string name="schedule_grade_4">四年级</string>
-  <string name="schedule_grade_5">五年级</string>
-  <string name="schedule_grade_6">六年级</string>
-  <string name="schedule_grade_7">七年级</string>
-  <string name="schedule_grade_8">八年级</string>
-  <string name="schedule_grade_9">九年级</string>
-  <string name="schedule_me">我的课程</string>
-  <string name="schedule_message">%s的课程表动态</string>
-  <string name="schedule_no_class_hint">未排课</string>
-  <string name="schedule_no_setting_title">还没有设置课程表，请点击设置</string>
-  <string name="schedule_noti_0">手表课程表提醒</string>
-  <string name="schedule_noti_1">开启后每天晚上8：00手表会提示第二天的课程</string>
-  <string name="schedule_notice_hint_0">明日课程表已生成</string>
-  <string name="schedule_notice_hint_1">点击查看明日课程详情</string>
-  <string name="schedule_notice_title">明日课程</string>
-  <string name="schedule_now_setting">创建课程表</string>
-  <string name="schedule_num_1">第一节</string>
-  <string name="schedule_num_2">第二节</string>
-  <string name="schedule_school">学校信息</string>
-  <string name="schedule_search_hint_0">使用新表</string>
-  <string name="schedule_search_hint_1">已匹配到该学校中班级的课程表，是否使用该课程表？</string>
-  <string name="schedule_search_hint_2">不使用</string>
-  <string name="schedule_select_edit_hint">请先从下方课程名称选择区选择课程名称，在填入课程表</string>
-  <string name="schedule_select_error_0">请按照省、市、地区顺序依次选择地理位置</string>
-  <string name="schedule_select_error_1">请设置学校信息</string>
-  <string name="schedule_setting">课程表设置</string>
-  <string name="schedule_start_time">上课时间</string>
-  <string name="schedule_time">课程时间</string>
-  <string name="schedule_time_aft">下午</string>
-  <string name="schedule_time_delete_limit">默认课时，无法删除</string>
-  <string name="schedule_time_mor">上午</string>
-  <string name="school_set_info_0">城市</string>
-  <string name="school_set_info_1">По области</string>
+  <string name="schedule_add_class_limit">Добавляйте курсы до лимита</string>
+  <string name="schedule_card_title">Расписание занятий</string>
+  <string name="schedule_class_limit">До 10 уроков</string>
+  <string name="schedule_class_name">Введите новое название курса</string>
+  <string name="schedule_class_name_limit_0">Пожалуйста, введите 6-значное имя курса</string>
+  <string name="schedule_class_name_limit_1">Этот курс уже существует</string>
+  <string name="schedule_class_set">%d класс</string>
+  <string name="schedule_class_time_error_0">Установлено неправильное время курса, измените</string>
+  <string name="schedule_class_time_error_1">Конфликт настроек времени занятий, измените</string>
+  <string name="schedule_class_time_error_2">Раздел %s</string>
+  <string name="schedule_delete_cust_class">Вы действительно хотите удалить собственный курс \"%s\"</string>
+  <string name="schedule_delete_def_class">Курс по умолчанию не может быть удален</string>
+  <string name="schedule_edit_exit">Ваше изменение не сохранено, выйти из режима?</string>
+  <string name="schedule_edit_exit_no">Продолжить редактирование</string>
+  <string name="schedule_edit_exit_yes">Подтвердить выход</string>
+  <string name="schedule_end_time">После уроков</string>
+  <string name="schedule_grade_1">Первый класс</string>
+  <string name="schedule_grade_2">Второй класс</string>
+  <string name="schedule_grade_3">Третий класс</string>
+  <string name="schedule_grade_4">Четвертый класс</string>
+  <string name="schedule_grade_5">Пятый класс</string>
+  <string name="schedule_grade_6">Шестой класс</string>
+  <string name="schedule_grade_7">Седьмой класс</string>
+  <string name="schedule_grade_8">Восьмой класс</string>
+  <string name="schedule_grade_9">Девятый класс</string>
+  <string name="schedule_me">Мои курсы</string>
+  <string name="schedule_message">Обновления расписания %s</string>
+  <string name="schedule_no_class_hint">Незапланирован</string>
+  <string name="schedule_no_setting_title">Расписание не установлено, нажмите "Установить"</string>
+  <string name="schedule_noti_0">Смотреть напоминание о расписании занятий</string>
+  <string name="schedule_noti_1">Каждый вечер в 20:00 часы подскажут курс следующего дня</string>
+  <string name="schedule_notice_hint_0">Завтрашнее расписание сформировано</string>
+  <string name="schedule_notice_hint_1">Нажмите, чтобы просмотреть подробную информацию о завтрашнем курсе</string>
+  <string name="schedule_notice_title">Завтрашний курс</string>
+  <string name="schedule_now_setting">Создать учебную программу</string>
+  <string name="schedule_num_1">Раздел первый</string>
+  <string name="schedule_num_2">Раздел второй</string>
+  <string name="schedule_school">Информация о школе</string>
+  <string name="schedule_search_hint_0">Использовать новую таблицу</string>
+  <string name="schedule_search_hint_1">Учебная программа соответствует классу этой школы. Вы хотите использовать эту программу?</string>
+  <string name="schedule_search_hint_2">Не использовать</string>
+  <string name="schedule_select_edit_hint">Выберите название курса из области выбора названия курса ниже и заполните список курсов</string>
+  <string name="schedule_select_error_0">Выберите географические местоположения в порядке провинции, города и региона</string>
+  <string name="schedule_select_error_1">Укажите информацию о школе</string>
+  <string name="schedule_setting">Учебный план</string>
+  <string name="schedule_start_time">Время начала занятий</string>
+  <string name="schedule_time">Время учебы</string>
+  <string name="schedule_time_aft">После обеда</string>
+  <string name="schedule_time_delete_limit">Время урока по умолчанию, не может быть удалено</string>
+  <string name="schedule_time_mor">До обеда</string>
+  <string name="school_set_info_0">Город</string>
+  <string name="school_set_info_1">Район</string>
   <string name="school_set_info_2">Школа</string>
-  <string name="school_set_info_3">年级</string>
-  <string name="school_set_info_4">班级</string>
-  <string name="score">我要评分</string>
+  <string name="school_set_info_3">Номер класса</string>
+  <string name="school_set_info_4">Буква класса</string>
+  <string name="score">Оценка</string>
   <string name="search">Поиск</string>
   <string name="search_fail">Запрос не выполнен</string>
   <string name="search_menu_title">Search</string>
@@ -1866,8 +1853,8 @@ To activate your account, follow the
   <string name="search_wifi_already_setted">[добавлен]</string>
   <string name="search_wifi_none_phone">Wi-Fi не ищется или Wi-Fi на телефоне не включен</string>
   <string name="search_wifi_none_watch">Wi-Fi не обнаружен или Wi-Fi на часах не включен</string>
-  <string name="search_wifi_not_support">[不支持使用]</string>
-  <string name="search_wifi_not_support_reason">暂不支持企业级加密和5G类型WiFi</string>
+  <string name="search_wifi_not_support">[Не поддерживается]</string>
+  <string name="search_wifi_not_support_reason">Не поддерживает шифрование и Wi-Fi типа 5G</string>
   <string name="search_wifi_phone">Поиск Wi-Fi рядом с телефоном</string>
   <string name="search_wifi_watch">Поиск Wi-Fi рядом с часами</string>
   <string name="second">" сек."</string>
@@ -1909,24 +1896,24 @@ To activate your account, follow the
   <string name="sehedule_course_9">Информатика</string>
   <string name="select_all">Выбрать все</string>
   <string name="select_all_no">Снять выделение</string>
-  <string name="select_family_wifi">选择家庭WiFi</string>
-  <string name="select_more_one">请至少选择一种动态消息类型</string>
-  <string name="select_mult">多选</string>
-  <string name="select_server">选择服务器</string>
-  <string name="select_server_desc">切换服务器后需要手动重启App</string>
-  <string name="select_server_online">正式服务器</string>
-  <string name="select_server_test">测试服务器</string>
-  <string name="select_unbinding_reset">解绑重置手表</string>
-  <string name="select_wifi">选择WiFi</string>
-  <string name="select_wifi_des">选择家中或附近的WiFi，提高安全区域的准确性。</string>
+  <string name="select_family_wifi">Выберите домашний WiFi</string>
+  <string name="select_more_one">Выберите хотя бы один</string>
+  <string name="select_mult">Множественный выбор</string>
+  <string name="select_server">Выбрать сервер</string>
+  <string name="select_server_desc">Вам нужно вручную перезапустить приложение после переключения сервера</string>
+  <string name="select_server_online">Официальный сервер</string>
+  <string name="select_server_test">Тестовый сервер</string>
+  <string name="select_unbinding_reset">Отвязать и сбросить</string>
+  <string name="select_wifi">Выберите WiFi</string>
+  <string name="select_wifi_des">Выберите домашний WiFi или поблизости, чтобы повысить точность определения безопасной зоны</string>
   <string name="select_wifi_nearby_watch">Выберите точку WiFi рядом с Вашими часами</string>
-  <string name="select_wifi_phone">选择手机附近的WiFi（不支持5G以及企业级WiFi）</string>
-  <string name="select_wifi_watch">选择手表附近的WiFi</string>
+  <string name="select_wifi_phone">Выберите WiFi рядом с телефоном (5G и корпоративный Wi-Fi не поддерживаются)</string>
+  <string name="select_wifi_watch">Выберите WiFi рядом с часами</string>
   <string name="sendSms">Отправить</string>
   <string name="send_admin_ok_info">Система уведомила вашего администратора о запросе на привязку часов: %s, пожалуйста, используйте учетную запись, чтобы войти в приложение, а затем присоединитесь к семье после согласования</string>
   <string name="send_cancel">Отменить отправку</string>
-  <string name="send_comment">提交评论</string>
-  <string name="send_content_nothing">不能发送空白消息</string>
+  <string name="send_comment">Отправить комментарий</string>
+  <string name="send_content_nothing">Невозможно отправить пустое сообщение</string>
   <string name="send_diagnosis_log">Send diagnosis log</string>
   <string name="send_help_req">Отправить запрос на помощь</string>
   <string name="send_monitor_number_tips">После получения запроса часы позвонят по выбранному Вами номеру. Ваш голос не будет слышен. Задержка монитора может составлять несколько десятков секунд. Пожалуйста, подождите немного</string>
@@ -1993,7 +1980,7 @@ To activate your account, follow the
   <string name="setting_watch_power">Выключение</string>
   <string name="setting_watch_repair">Гарантия</string>
   <string name="setting_watch_silence">Тишина на занятиях</string>
-  <string name="setting_watch_sleep">Ночной режим</string>
+  <string name="setting_watch_sleep">Сон</string>
   <string name="setting_watch_update">Версия прошивки для часов</string>
   <string name="setting_watch_white_list">Только белый список</string>
   <string name="setting_watch_white_list_text">При включенном определителе номера (услуга оператора), часы смогут вызвать только члены семьи</string>
@@ -2025,8 +2012,8 @@ To activate your account, follow the
   <string name="sim_open">Сим работает</string>
   <string name="sim_out_of_service">Сим не обслуживается</string>
   <string name="slide_cancel">Пропустить</string>
-  <string name="smart_holiday_hint">打开时，法定节假日关闭防打扰</string>
-  <string name="smart_holiday_title">法定节假日关闭防打扰</string>
+  <string name="smart_holiday_hint">Не беспокоить в государственные праздники</string>
+  <string name="smart_holiday_title">Не беспокоить в праздники</string>
   <string name="sms_code_wrong">The verification code you entered is incorrect</string>
   <string name="sms_command_format_wrong">Ошибка формата запроса</string>
   <string name="sms_command_send_success">Запрос успешно отправлен</string>
@@ -2044,50 +2031,50 @@ To activate your account, follow the
   <string name="sport_chall_detail_desc0" formatted="false">"%s достигнута цель %s！
 Поделитесь скорее
  %s"</string>
-  <string name="sport_chall_detail_desc1">"还没有获得该勋章
- %s的小宝贝已经获得"</string>
-  <string name="sport_chall_detail_hint">%s获得</string>
-  <string name="sport_chall_hint1">还未完成任何挑战</string>
+  <string name="sport_chall_detail_desc1">"Не получил медаль
+ %s получил"</string>
+  <string name="sport_chall_detail_hint">%s получил</string>
+  <string name="sport_chall_hint1">Ни один вызов еще не был завершен</string>
   <string name="sport_chall_title">Вызов</string>
   <string name="sport_challenge_title">Недавно выполнил задачу</string>
-  <string name="sport_e2e_no_data">手表未上报数据</string>
+  <string name="sport_e2e_no_data">Часы не передают данные</string>
   <string name="sport_move_title">Спортивный</string>
-  <string name="sport_rank_head_hint0" formatted="false">%s昨天的步数高于所有%s小朋友的平均水平，继续努力!</string>
-  <string name="sport_rank_head_hint1" formatted="false">%s昨天的步数不到所有%s小朋友的平均水平，要加油噢!</string>
-  <string name="sport_rank_info_0">本地区</string>
-  <string name="sport_rank_info_1">同年龄段</string>
+  <string name="sport_rank_head_hint0" formatted="false">Количество шагов %s вчера выше, чем средний уровень всех %s детей, продолжайте усердно работать!</string>
+  <string name="sport_rank_head_hint1" formatted="false">Вчера количество шагов %s меньше, чем средний уровень всех %s детей, так что дерзайте!</string>
+  <string name="sport_rank_info_0">Регион</string>
+  <string name="sport_rank_info_1">Тот же возраст</string>
   <string name="sport_rank_title">Рейтинг</string>
-  <string name="sport_record_title">运动记录</string>
+  <string name="sport_record_title">Запись движения</string>
   <string name="sport_rope_jump_unit">个</string>
-  <string name="sport_running_duration">运动时长：%s</string>
+  <string name="sport_running_duration">Время тренировки: %s</string>
   <string name="sport_running_record">Показатели бега малыша за последние 30 дней</string>
-  <string name="sport_running_steps" formatted="false">上次运动：%s %s</string>
-  <string name="sport_running_type_0">散步</string>
-  <string name="sport_running_type_1">慢跑</string>
-  <string name="sport_running_type_2">冲刺</string>
-  <string name="sport_running_type_3">室外跑</string>
-  <string name="sport_running_type_4">跳绳</string>
-  <string name="sport_set_info_null">请设置正确的身高体重值，才能正常使用</string>
-  <string name="sport_set_statue_null">未设置</string>
-  <string name="sport_setting_hing3">运动设置</string>
-  <string name="sport_setting_hint0">宝贝身高</string>
-  <string name="sport_setting_hint1">宝贝体重</string>
+  <string name="sport_running_steps" formatted="false">Последнее упражнение:%s %s</string>
+  <string name="sport_running_type_0">Прогулка</string>
+  <string name="sport_running_type_1">Бег трусцой</string>
+  <string name="sport_running_type_2">Спринт</string>
+  <string name="sport_running_type_3">Бег на воздухе</string>
+  <string name="sport_running_type_4">Скакалка</string>
+  <string name="sport_set_info_null">Установите правильные значения роста и веса для нормального использования</string>
+  <string name="sport_set_statue_null">Не задано</string>
+  <string name="sport_setting_hing3">Спортивные настройки</string>
+  <string name="sport_setting_hint0">Рост ребенка</string>
+  <string name="sport_setting_hint1">Вес ребенка</string>
   <string name="sport_setting_hint2">Количество шагов до цели</string>
-  <string name="sport_step_area_data">地区：前%s</string>
-  <string name="sport_step_count_data">全国：前%s</string>
-  <string name="sport_step_hint">一次都没跑过，赶紧试试看</string>
+  <string name="sport_step_area_data">Регион: Топ %s</string>
+  <string name="sport_step_count_data">Национальный: Топ %s</string>
+  <string name="sport_step_hint">Раньше не бегал, так что поторопись и попробуй</string>
   <string name="sport_step_name">Шагомер</string>
-  <string name="sport_step_no_data">今天还没有运动过噢</string>
-  <string name="sport_step_no_rank">未排名</string>
-  <string name="sport_step_rank">计步排名</string>
-  <string name="sport_steps_detail_hint0">每日步数</string>
-  <string name="sport_steps_detail_hint1">当日步数</string>
-  <string name="sport_steps_detail_hint2">燃烧的卡路里</string>
-  <string name="sport_steps_message">%s的运动动态</string>
+  <string name="sport_step_no_data">Я еще не тренировался сегодня</string>
+  <string name="sport_step_no_rank">Не в рейтинге</string>
+  <string name="sport_step_rank">Рейтинг подсчета шагов</string>
+  <string name="sport_steps_detail_hint0">Ежедневные шаги</string>
+  <string name="sport_steps_detail_hint1">Шаги дня</string>
+  <string name="sport_steps_detail_hint2">Сожжено калорий</string>
+  <string name="sport_steps_message">активность %s</string>
   <string name="sport_steps_running_hint0">Бег</string>
-  <string name="sports_yestoday_no_ranking">昨天没有上报运动数据，未排名</string>
+  <string name="sports_yestoday_no_ranking">Вчера не было опубликовано никаких спортивных данных, нет рейтинга</string>
   <string name="sprit">/</string>
-  <string name="start_bind">开始绑定</string>
+  <string name="start_bind">Начать привязку</string>
   <string name="start_powerSaving_mode_setting">Включение режима энергосбережения</string>
   <string name="start_powerSaving_mode_setting_desc">Часы будут отдавать местоположение только при открытии приложения и не будет уведомлений о зоне безопасности. Переключить режим энергосбережения?</string>
   <string name="start_scan_guide">Начать сканирование</string>
@@ -2193,18 +2180,18 @@ To activate your account, follow the
   <string name="string_add">Добавить</string>
   <string name="sub_num_tag">Номер:</string>
   <string name="support_device">（Поддержка только Mi bunny watch Q）</string>
-  <string name="sure_close_collision_prompt">确认关闭碰撞提醒？</string>
-  <string name="sync" formatted="false">正在同步：%d/%d</string>
-  <string name="synced">已同步</string>
+  <string name="sure_close_collision_prompt">Вы уверены, что отключите напоминание о столкновении?</string>
+  <string name="sync" formatted="false">Синхронизация:%d/%d</string>
+  <string name="synced">Синхронизировано</string>
   <string name="synch_szone_message">Синхронизация данных......</string>
-  <string name="system_message">%s的系统消息</string>
-  <string name="system_message_title">服务消息</string>
-  <string name="system_notice">系统消息</string>
+  <string name="system_message">Системное сообщение для %s</string>
+  <string name="system_message_title">Сервисное сообщение</string>
+  <string name="system_notice">Системная информация</string>
   <string name="take_watch_photo">Фотосъемка</string>
   <string name="takephoto_confirm_msg">Часы сделают снимок. При нормальной скорости Интернет Вы получите фотографию в течение одной минуты</string>
   <string name="takephoto_timeout">Подключение к удалённой камере не удалось</string>
   <string name="target_steps_title">Количество шагов до цели</string>
-  <string name="temp_notice_hint">体温异常提醒</string>
+  <string name="temp_notice_hint">Напоминание о ненормальной температуре тела</string>
   <string name="temporary_not_available">temporary not available</string>
   <string name="text13">В течении %s секунд</string>
   <string name="text15">В течении 1 минуты</string>
@@ -2273,25 +2260,25 @@ To activate your account, follow the
   <string name="tt_common_download_app_detail">Детали приложения</string>
   <string name="tt_common_download_app_privacy">Соглашение о конфиденциальности</string>
   <string name="tt_common_download_cancel">Отказаться от загрузки</string>
-  <string name="tt_confirm_download">正在使用非Wifi网络，确认要进行下载吗？</string>
-  <string name="tt_confirm_download_have_app_name">准备下载%s应用</string>
-  <string name="tt_dislike_header_tv_back">返回</string>
-  <string name="tt_dislike_header_tv_title">选择</string>
-  <string name="tt_full_screen_skip_tx">5s后可跳过</string>
+  <string name="tt_confirm_download">Вы используете сеть без WiFi. Вы действительно хотите загрузить?</string>
+  <string name="tt_confirm_download_have_app_name">Готово к загрузке приложения %s</string>
+  <string name="tt_dislike_header_tv_back">Назад</string>
+  <string name="tt_dislike_header_tv_title">Выбрать</string>
+  <string name="tt_full_screen_skip_tx">Можно пропустить через 5 секунд</string>
   <string name="tt_label_cancel">Отмена</string>
   <string name="tt_label_ok">ОК</string>
-  <string name="tt_no_network">无网络，请稍后再试</string>
-  <string name="tt_open_app_detail_developer">开发者：%1$s</string>
-  <string name="tt_open_app_detail_privacy">隐私协议：</string>
-  <string name="tt_open_app_detail_privacy_list">权限列表</string>
-  <string name="tt_open_app_name">应用名称：%1$s</string>
-  <string name="tt_open_app_version">版本号：%1$s</string>
-  <string name="tt_open_landing_page_app_name">应用名称：%1$s 版本：%2$s</string>
-  <string name="tt_permission_denied">您已禁止授权操作，请授权</string>
-  <string name="tt_playable_btn_play">立即体验</string>
-  <string name="tt_request_permission_descript_external_storage">存储</string>
-  <string name="tt_request_permission_descript_location">位置信息</string>
-  <string name="tt_request_permission_descript_read_phone_state">拨打电话</string>
+  <string name="tt_no_network">Нет сети, повторите попытку позже</string>
+  <string name="tt_open_app_detail_developer">Разработчик:%1$s</string>
+  <string name="tt_open_app_detail_privacy">Соглашение о конфиденциальности:</string>
+  <string name="tt_open_app_detail_privacy_list">Список разрешений</string>
+  <string name="tt_open_app_name">Название приложения:%1$s</string>
+  <string name="tt_open_app_version">Номер версии:%1$s</string>
+  <string name="tt_open_landing_page_app_name">Название приложения:%1$s Версия:%2$s</string>
+  <string name="tt_permission_denied">Вы запретили операцию авторизации, авторизуйтесь</string>
+  <string name="tt_playable_btn_play">Play</string>
+  <string name="tt_request_permission_descript_external_storage">Хранилище</string>
+  <string name="tt_request_permission_descript_location">Информация о местонахождении</string>
+  <string name="tt_request_permission_descript_read_phone_state">Сделать звонок</string>
   <string name="tt_reward_feedback">Обратная связь</string>
   <string name="tt_reward_screen_skip_tx">СКРЫТЬ</string>
   <string name="tt_splash_skip_tv_text">3s | Пропустить</string>
@@ -2317,8 +2304,8 @@ To activate your account, follow the
   <string name="unbind_failed">Не удалось отвязать</string>
   <string name="unbind_netdisk">Отвязать альбом</string>
   <string name="unbind_netdisk_tips">После отмены привязки к текущей учетной записи Baidu, приложение не может просматривать фотографии на часах. Отменить синхронизацию?</string>
-  <string name="unbind_xiaomi_cloud">当前账号尚未解除手表相册账号授权，故暂不支持转移管理员权限，立即前往解除手表相册账号授权？</string>
-  <string name="unbind_xiaomi_netdisk_tips">解绑当前小米帐号后App无法查看手表上的照片并取消同步，是否解绑？（一年内不使用小米云服务将会删除云端照片，解绑后可以访问i.mi.com管理照片。）</string>
+  <string name="unbind_xiaomi_cloud">Текущая учетная запись не деавторизовала учетную запись альбома просмотра, поэтому передача прав администратора временно не поддерживается. Перейти к немедленной деавторизации учетной записи альбома просмотра?</string>
+  <string name="unbind_xiaomi_netdisk_tips">После отсоединения текущего аккаунта MiHome приложение не сможет просматривать фотографии на часах и отменять синхронизацию.(Не используя облачный сервис Xiaomi в течение года удалит облачные фотографии,доступ к которым вы сможете получить после отвязки mi.com Управление фотографиями）</string>
   <string name="unbinding">Отвязываю</string>
   <string name="unbounded">Отвязано</string>
   <string name="unit_hour">Час.</string>
@@ -2434,28 +2421,28 @@ To activate your account, follow the
   <string name="videocall_video_record_stop">Остановить запись</string>
   <string name="voice">[Голос]</string>
   <string name="voice_button">Голос</string>
-  <string name="volte_dialog_tips">电信SIM卡未开通VoLTE将无法拨打电话，点击“我的-用户帮助”查看开通方法</string>
-  <string name="volte_tips">电信卡未开通VoLTE无法拨打电话，点击查看详情</string>
+  <string name="volte_dialog_tips">Телефонная SIM-карта не сможет совершать звонки, если VoLTE не активирован. Нажмите «Моя помощь пользователю», чтобы просмотреть способ активации</string>
+  <string name="volte_tips">Звонки не могут быть выполнены, если VoLTE не активирован на SIM-карте, нажмите, чтобы просмотреть подробности</string>
   <string name="volume_and_vibrate">Звук плюс вибрация</string>
   <string name="volume_vibrate">Громкость уведомлений</string>
   <string name="volume_vibrate_led">Вибрация и индикация</string>
   <string name="wait_for_address">Не удалось получить текущий адрес</string>
   <string name="wake_up_device_rightnow">Разбудить</string>
   <string name="wake_up_device_rightnow_desc">Отправьте сообщение о пробуждении на часы, часы могут использовать мобильные данные и найдутся (Это SMS взимает только базовую плату за SMS или использует количество SMS-сообщений в пакете)</string>
-  <string name="wan">万</string>
+  <string name="wan">10k</string>
   <string name="watch_add_friend">%1$s и %2$s теперь друзья</string>
   <string name="watch_already_arrive_safe_area" formatted="false">%s прибыл %s</string>
   <string name="watch_already_leave_safe_area" formatted="false">%s ушел %s</string>
   <string name="watch_app_amway_title">Amway Wall</string>
   <string name="watch_app_download_in_mobile">Прямая загрузка</string>
   <string name="watch_app_download_in_mobile_desc">%s будет загружен и установлен, когда часы подключены к сети и зарядному устройству</string>
-  <string name="watch_app_download_in_mobile_desc2">%s将在手表在线时下载并安装</string>
+  <string name="watch_app_download_in_mobile_desc2">%s будет загружен и установлен, когда часы будут подключены к сети</string>
   <string name="watch_app_download_in_wifi">Загрузка по WiFi</string>
   <string name="watch_app_download_in_wifi_desc">%s будет загружен и установлен, когда часы заряжены и подключены к WiFi</string>
-  <string name="watch_app_download_in_wifi_desc2">%s将在手表连接WiFi时下载并安装</string>
+  <string name="watch_app_download_in_wifi_desc2">%s будет загружен и установлен, когда часы будут подключены к WiFi</string>
   <string name="watch_app_download_type_modify">Изменить метод загрузки</string>
   <string name="watch_app_install_desc" formatted="false">%s будет потреблять %s трафика, и будет загружено при подключении к зарядному устройству</string>
-  <string name="watch_app_install_desc2" formatted="false">%s将消耗%s流量</string>
+  <string name="watch_app_install_desc2" formatted="false">%s будет потреблять %s трафика</string>
   <string name="watch_app_install_title">Загрузите и установите приложение</string>
   <string name="watch_app_recommend_title">Рекомендации</string>
   <string name="watch_app_uninstall_title">Удалить приложение</string>
@@ -2495,24 +2482,24 @@ To activate your account, follow the
   <string name="watch_offline">Часы не в сети, возможно сигнал сети часов отсутствует или они выключены</string>
   <string name="watch_offline_set_state">%s не в сети, настройки не вступят в силу, пока часы не будут успешно подключены к сети</string>
   <string name="watch_offline_state">Часы в настоящее время не в сети</string>
-  <string name="watch_offline_state_with_tips">"手表已%d天不在线
-下一次充电请至少连续充电五分钟以上
-直到手表开机"</string>
+  <string name="watch_offline_state_with_tips">"Часы выключены %d дней
+Необходимо заряжать более 5 минут,
+пока часы не включаться"</string>
   <string name="watch_offline_tips">Часы в настоящее время не в сети, они получат сообщения после регистрации в сети</string>
-  <string name="watch_power_ai_info">如何省电</string>
-  <string name="watch_power_app_useage">应用耗电（%s）</string>
-  <string name="watch_power_cur_num">当前电量：</string>
-  <string name="watch_power_default_name">未知应用</string>
-  <string name="watch_power_help_title">省电方式&gt;&gt;</string>
-  <string name="watch_power_lower_time">小于1分钟</string>
-  <string name="watch_power_no_data">未统计到选中时段内数据</string>
-  <string name="watch_power_onscreen_nouse">没有亮屏使用</string>
-  <string name="watch_power_running">运行%s</string>
-  <string name="watch_power_screen_time">亮屏时间：</string>
+  <string name="watch_power_ai_info">Как сэкономить электроэнергию</string>
+  <string name="watch_power_app_useage">Энергопотребление приложения （%s）</string>
+  <string name="watch_power_cur_num">Текущая батарея:</string>
+  <string name="watch_power_default_name">Неизвестное приложение</string>
+  <string name="watch_power_help_title">Режим энергосбережения &gt;&gt;</string>
+  <string name="watch_power_lower_time">Менее 1 минуты</string>
+  <string name="watch_power_no_data">Данные за выбранный период времени отсутсвуют</string>
+  <string name="watch_power_onscreen_nouse">Использование в фоне:</string>
+  <string name="watch_power_running">Работает %s</string>
+  <string name="watch_power_screen_time">Использование экрана:</string>
   <string name="watch_power_title">Аккумулятор</string>
-  <string name="watch_power_update_time">更新时间：%s</string>
-  <string name="watch_power_useage_info">最近七天电量使用情况</string>
-  <string name="watch_power_week_title">最近一周</string>
+  <string name="watch_power_update_time">Обновлено: %s</string>
+  <string name="watch_power_useage_info">Потребление энергии за последние семь дней</string>
+  <string name="watch_power_week_title">Прошлая неделя</string>
   <string name="watch_poweroff_already">Уже были выключены</string>
   <string name="watch_poweroff_prompt">Выключены</string>
   <string name="watch_quit_family" formatted="false">%s вышел %s</string>
@@ -2596,17 +2583,17 @@ To activate your account, follow the
   <string name="wrong_class_name">Пожалуйста, введите правильный класс</string>
   <string name="wrong_nickname">Пожалуйста укажите верные данные</string>
   <string name="xiaomi_account">Аккаунт Xiaomi</string>
-  <string name="xiaomi_cloud_little">当前存储空间将满，已满时手表照片将无法共享，您可通过开通小米云服务会员获取更大存储空间，是否开通</string>
-  <string name="xiaomi_cloud_little2">当前存储空间将满，已满时手表照片将无法共享，您可提醒管理员开通小米云服务会员获取更大存储空间。</string>
-  <string name="xiaomi_cloud_null">当前存储空间已满，手表照片将无法共享，您可通过开通小米云服务会员获取更大存储空间，是否开通</string>
-  <string name="xiaomi_cloud_null2">当前存储空间已满，手表照片将无法共享，您可提醒管理员开通小米云服务会员获取更大存储空间。</string>
+  <string name="xiaomi_cloud_little">Текущее пространство для хранения будет заполнено. Когда оно заполнится, фотографиями часов нельзя будет поделиться. Вы можете получить больше места для хранения, подписавшись на членство в облачной службе Xiaomi</string>
+  <string name="xiaomi_cloud_little2">Текущее пространство для хранения будет заполнено. Когда оно будет заполнено, фотографии часов не будут доступны. Вы можете напомнить администратору об активации члена Mi Cloud Service, чтобы получить больше места для хранения</string>
+  <string name="xiaomi_cloud_null">Текущее пространство для хранения заполнено, и фотографиями часов нельзя поделиться. Вы можете получить больше места, подписавшись на членство в облачной службе Xiaomi</string>
+  <string name="xiaomi_cloud_null2">Текущее пространство для хранения заполнено, и фотографиями часов нельзя будет поделиться. Вы можете напомнить администратору о необходимости активировать участников Xiaomi Cloud Service, чтобы получить больше места для хранения</string>
   <string name="xiaomi_login_failed">Ошибка входа в системную учетную запись Xiaomi, повторите попытку</string>
   <string name="xiaomi_netdisk">Фотоальбом Mi Cloud</string>
   <string name="xiaomi_netdisk_auth">Авторизация учетной записи Mi</string>
-  <string name="xiaomi_netdisk_des_1">APP查看手表相册内容</string>
-  <string name="xiaomi_netdisk_des_2">手表照片共享至小米云服务</string>
-  <string name="xiaomi_netdisk_des_3">小视频共享至小米云服务</string>
-  <string name="xiaomi_netdisk_des_4">云相册将占用小米云服务的空间</string>
+  <string name="xiaomi_netdisk_des_1">Приложение просмотр содержимого альбома часов</string>
+  <string name="xiaomi_netdisk_des_2">Смотрите фотографии, опубликованные в облачном сервисе Xiaomi</string>
+  <string name="xiaomi_netdisk_des_3">Делитесь небольшими видеороликами в облачном сервисе Xiaomi</string>
+  <string name="xiaomi_netdisk_des_4">Облачные фотоальбомы займут пространство облачных сервисов Xiaomi</string>
   <string name="xiaomi_netdisk_tips">Делитесь каждым моментом ребенка</string>
   <string name="xiaomi_nickname">Логин аккаунта Xiaomi：</string>
   <string name="ximalaya_album_count">Всего 18 песен</string>
@@ -2691,9 +2678,8 @@ To activate your account, follow the
   <string name="yellow_light_flicker">Мигает желтым</string>
   <string name="yes">Да</string>
   <string name="yesterday">Вчера</string>
-  <string name="yi">亿</string>
+  <string name="yi">Миллиард</string>
   <string name="yuan">元</string>
   <string name="yuan_with_num">%s元</string>
-  <string name="yuan_with_num_sign">%s元</string>
-  <item type="string" name="APKTOOL_DUMMY_4d6">false</item>
+  <string name="yuan_with_num_sign">%s元</string>														   
 </resources>
