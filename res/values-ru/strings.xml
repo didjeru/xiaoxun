@@ -158,7 +158,7 @@
   <string name="app_check_fail">Проверка приложения неуспешна, попробуйте еще!</string>
   <string name="app_close_photos">Синхронизация в облачное хранилище</string>
   <string name="app_close_photos_desc">Часы будут автоматически синхронизировать фотографии с облачным хранилищем после соединения с WiFi</string>
-  <string name="app_corporation_str">Copyright@2015-2020 Xiaoxun Technology Все права защищены (Перевод: 4pda - Didjer, Sanek200779)</string>
+  <string name="app_corporation_str">Copyright@2015-2020 Xiaoxun Technology Все права защищены</string>
   <string name="app_detail">Детали приложения</string>
   <string name="app_feedback_detail_tips">Пожалуйста, опишите проблему подробно</string>
   <string name="app_feedback_tips">Пожалуйста, выберите проблему, возникшую при использовании</string>
@@ -267,10 +267,10 @@
 2.Согласно измеренному отчету, при включении мощного режима часов...
 3.В настоящее время этот режим является лабораторной функцией для оптимизации работы пользователей."</string>
   <string name="auto_alert_title">Включите интеллектуальный режим энергосбережения</string>
-  <string name="auto_answer_after">Автоматический ответ через 30 секунд</string>
+  <string name="auto_answer_after">Автоматически через 30 секунд</string>
   <string name="auto_answer_after2">Ответить автоматически через 15 секунд</string>
-  <string name="auto_answer_after_desc">Звонок будет принят автоматические через 30 секунд</string>
-  <string name="auto_answer_after_desc2">Звонок будет принят автоматические через 15 секунд</string>
+  <string name="auto_answer_after_desc">Звонок будет принят автоматически через 30 секунд</string>
+  <string name="auto_answer_after_desc2">Звонок будет принят автоматически через 15 секунд</string>
   <string name="auto_answer_rightnow">Ответить немедленно</string>
   <string name="auto_answer_rightnow_desc">Часы ответят автоматически, как только они получат вызов</string>
   <string name="auto_call_back_list_help">Отметьте номер в списке для звонка на часы. Абонент повесит трубку в течение 8 секунд после того, как услышит [звуковой сигнал], часы автоматически перезвонят. Номер обратного вызова может быть установлен только администратором</string>
@@ -400,7 +400,7 @@
   <string name="call_baby_notify">Автоматический ответ</string>
   <string name="call_baby_notify_content">Включите функции автоответа, если ребенок не ответит в течение 30 секунд после поступления вызова, прием вызова произойдет автоматически. Автоответ включен по умолчанию и может быть изменен в настройках</string>
   <string name="call_back_member_num">Номер для обратного вызова</string>
-  <string name="call_back_number_tips">После получения запроса часы позвонят по выбранному Вами номеру. Ваш голос не будет слышен. Задержка монитора может составлять несколько десятков секунд. Пожалуйста, подождите немного</string>
+  <string name="call_back_number_tips">После получения запроса часы отправят короткую запись по выбранному номеру. Задержка монитора может составлять несколько десятков секунд.</string>
   <string name="call_cost">Стоимость обратного вызова</string>
   <string name="call_diverting">Переадресация</string>
   <string name="call_duration">Длительность звонка</string>
@@ -427,7 +427,7 @@
   <string name="callerid_line_title">АОН (5 юаней / месяц)</string>
   <string name="callerid_will_activate">Показывать номер вызывающего абонента</string>
   <string name="callerid_will_cancle">Отключить отображение вызывающего абонента</string>
-  <string name="calls_inquiry">Запрос на телефонный счет</string>
+  <string name="calls_inquiry">Запросить баланс SIM-карты</string>
   <string name="camera_premission_tips">Права на камеру</string>
   <string name="camera_prompt">Нажмите, чтобы сделать фото, нажмите и удерживайте, для видеозаписи</string>
   <string name="camera_wrong_tips">Ошибка камеры, проверьте, нормально ли работает камера</string>
@@ -444,7 +444,7 @@
   <string name="category_title_1">Головоломки</string>
   <string name="category_title_2">Соцсети</string>
   <string name="category_title_3">Музыка</string>
-  <string name="change_map_info">Переключение карт требует перезагрузки приложения</string>
+  <string name="change_map_info">Переключение карты перезагрузит приложение!</string>
   <string name="change_phone_number">Изменить номер телефона</string>
   <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
   <string name="character_counter_pattern">%1$d / %2$d</string>
@@ -477,8 +477,8 @@
   <string name="clean_data_notice">Уведомление об очистке данных приложения</string>
   <string name="clean_data_tips">Ваш телефон был обновлен до системы Android N (7.0), учитывая совместимость, приложение автоматически очистит данные локального кэша, пожалуйста, войдите снова!</string>
   <string name="clean_group_alert">Отмена привязки удалит всех членов семейного управления и очистит все исторические данные, относящиеся к часам, информации чата, уведомления, истории звонков, данные о шагах, настройки и т. д.</string>
-  <string name="clear_cache_map">Очистить кеш карты</string>
-  <string name="clear_cache_map_content">Если карта старая или есть проблема с картой (пусто, ошибка дороги), попробуйте очистить кэш карты, чтобы перезагрузить карту. Перезагрузка может потреблять трафик данных. Вы уверены, что очистили кэш карты?</string>
+  <string name="clear_cache_map">Очистить кэш карты</string>
+  <string name="clear_cache_map_content">Если карта старая или есть проблема с картой (пусто, ошибка дороги), попробуйте очистить кэш карты, чтобы перезагрузить карту. Перезагрузка может увеличить трафик данных мобильной сети.</string>
   <string name="clear_cache_success">Очищено</string>
   <string name="clear_message_text">После нажатия ОК все сообщения будут удалены.</string>
   <string name="clear_messge_title">Очистить все сообщения</string>
@@ -514,7 +514,7 @@
   <string name="confirm_to_remove_friend_member">Вы действительно хотите удалить друзей %s?</string>
   <string name="confirm_to_remove_group_member">Вы действительно хотите удалить %s из группы?</string>
   <string name="confirm_to_set_primary_contact">Вы уверены, что хотите установить %s в качестве основного контакта?</string>
-  <string name="confirm_to_shutdown_and_power_on">Выключить часы? После выключения, часы можно включить только нажатием и удержанием кнопки питания, или постановкой на зарядку</string>
+  <string name="confirm_to_shutdown_and_power_on">После выключения, часы можно включить только нажатием и удержанием кнопки питания, или постановкой на зарядку</string>
   <string name="confirm_to_transfer_rights_to">Передать права администратора</string>
   <string name="connect">Соединение</string>
   <string name="connect_wifi_error">Ошибка подключения</string>
@@ -583,8 +583,8 @@
 2. Отсканируйте QR-код еще раз после входа в приложение и привяжите устройство
 3. После подтверждения администратором, будет предоставлен доступ"</string>
   <string name="device_silence_delete_title">Тишина на занятиях</string>
-  <string name="device_silence_message_detail_new">Во время занятий, часы могут только отображать время, отправлять SOS, сохраняя при этом функцию позиционирования. Родители могут связаться с ребенком после удаленного отключения этого режима</string>
-  <string name="device_silence_message_detail_old">Во время занятий, часы могут только отображать время, отправлять SOS, сохраняя при этом функцию позиционирования. Родители могут связаться с ребенком после удаленного отключения этого режима</string>
+  <string name="device_silence_message_detail_new">Во время занятий, часы могут только отображать время, отправлять SOS, сохраняя при этом функцию позиционирования. Связь только после отключения данного режима.</string>
+  <string name="device_silence_message_detail_old">Во время занятий часы могут только отображать время, отправлять SOS, отвечать на вызовы, сохраняя при этом функцию позиционирования.</string>
   <string name="device_sim_unsupport">SIM-карта устройства не поддерживает этот режим</string>
   <string name="device_sleep_message_detail">Часы отключат функции голосовой связи, вызова и определения местоположения - что увеличит время работы! Часы выйдут из ночного режима после двух минут непрерывного движения или пяти последовательных нажатий кнопки и не будут спать во время зарядки</string>
   <string name="device_sleep_message_detail206">Часы отключат функцию позиционирования. Часы выйдут из ночного режима после двух минут непрерывного движения или пяти последовательных нажатий кнопки и не будут спать во время зарядки</string>
@@ -593,12 +593,12 @@
   <string name="device_sleep_message_detail_force_poweroff">Часы будут выключены и не будут включены в состоянии зарядки. Рекомендуется для сохранения заряда батареи.</string>
   <string name="device_sleep_poweroff">Период выключения</string>
   <string name="device_sleep_poweroff_desc">После перехода в ночной режим, часы автоматически выключаются и автоматически включаются после истечения времени ночного режима. Рекомендуется установить более 3 часов, чтобы увеличить время автономной работы.</string>
-  <string name="device_sms_filer">Белый список СМС</string>
-  <string name="device_sms_filer_all">Не получать СМС сообщения</string>
-  <string name="device_sms_filer_desc">Фильтр СМС сообщений</string>
-  <string name="device_sms_filer_desc_new">Белый список СМС сообщений работает только на часах, приложение получает все текстовые сообщения.</string>
-  <string name="device_sms_filer_group">Только СМС от семьи</string>
-  <string name="device_sms_filer_no">Все СМС сообщения</string>
+  <string name="device_sms_filer">Белый список SMS</string>
+  <string name="device_sms_filer_all">Не получать SMS сообщения</string>
+  <string name="device_sms_filer_desc">Фильтр SMS сообщений</string>
+  <string name="device_sms_filer_desc_new">Белый список SMS сообщений работает только на часах, приложение получает все SMS сообщения.</string>
+  <string name="device_sms_filer_group">Только SMS от семьи</string>
+  <string name="device_sms_filer_no">Все SMS сообщения</string>
   <string name="device_szone_delete_title">Удалить охранную зону</string>
   <string name="device_tv_admin_account">Xiaomi аккаунт администратора:</string>
   <string name="device_tv_imei">IMEI часов：%s</string>
@@ -859,7 +859,7 @@ progress: %d%%"</string>
   <string name="home_wifi_name">Выберите домашний Wi-Fi</string>
   <string name="home_wifi_setting_dialog_content">Зона безопасности обновлена, пожалуйста, снова настройте домашний Wi-Fi</string>
   <string name="home_wifi_setting_dialog_title">Напоминание о домашнем Wi-Fi</string>
-  <string name="hour">Час.</string>
+  <string name="hour">Час</string>
   <string name="hung_up_already">Вызов был завершен</string>
   <string name="image">[Фото]</string>
   <string name="image_delete">Изображение было удалено</string>
@@ -1295,7 +1295,8 @@ progress: %d%%"</string>
   <string name="normal_alert_detail">Переключение в обычный режим повлияет на время автономной работы часов, подтвердите переключение?</string>
   <string name="normal_alert_title">Нормальный режим</string>
   <string name="normal_mode_setting">Настройка нормального режима</string>
-  <string name="normal_summary">Обычная частота автоматического позиционирования, большое энергопотребление</string>
+  <string name="normal_summary">"Обычная частота автоматического позиционирования,
+большое энергопотребление"</string>
   <string name="not_download_dial_for_insufficient_memory">В часах недостаточно места для хранения</string>
   <string name="not_install_des">">Чтобы обеспечить справедливость оценки, установите и используйте более позднюю оценку</string>
   <string name="not_online">Не в сети</string>
@@ -1333,7 +1334,7 @@ progress: %d%%"</string>
   <string name="offline_mode_state_batterylow">Мобильные данные с низким энергопотреблением</string>
   <string name="offline_remove_city">Удаление карты, пожалуйста, подождите ...</string>
   <string name="offlinemap_city_list">Список городов</string>
-  <string name="offlinemap_down_manage">Управление загрузками</string>
+  <string name="offlinemap_down_manage">Загрузки</string>
   <string name="ok">OK</string>
   <string name="on_available_path">Путь не найден</string>
   <string name="online_music_error">Ошибка кэширования данных</string>
@@ -1572,7 +1573,8 @@ To activate your account, follow the
   <string name="performance_alert_detail">Переключение режима производительности влияет на срок службы батареи часов. Переключить?</string>
   <string name="performance_alert_title">Включить режим производительности</string>
   <string name="performance_mode_setting">Нормальный режим</string>
-  <string name="performance_summary">Автоматическое позиционирование с высокой частотой, высокая потребляемая мощность</string>
+  <string name="performance_summary">"Автоматическое позиционирование с высокой частотой,
+высокая потребляемая мощность"</string>
   <string name="permission_denied">（Приложению недоступно подключение к сети）</string>
   <string name="permission_denied_toast">Запрещено подключение к сети, пожалуйста, откройте сетевые разрешения!</string>
   <string name="phone_book_tips">Члены семьи будут синхронизированы с адресной книгой часов, после активации функции идентификации вызывающего абонента, только члены семьи смогут звонить ребенку, ребенку не позвонят посторонние</string>
@@ -1640,9 +1642,9 @@ To activate your account, follow the
   <string name="qq_nickname">Логин QQ ：</string>
   <string name="qq_not_installed">QQ клиент не установлен</string>
   <string name="qqkongjian">Пространство QQ</string>
-  <string name="qr_tips">"Пожалуйста, убедитесь, что устройство включено и сеть в норме
-Затем откройте Настройки часов-меню QR - кода или меню QR-кода
-Примечание: Не используйте разрезанные карты"</string>
+  <string name="qr_tips">"Пожалуйста, убедитесь, что устройство включено и находится в сети
+Затем откройте в настройках часов QR-код или поднесите QR-код с упаковки и просканируйте телефоном
+Примечание: Не используйте в часах отрезаные карты"</string>
   <string name="qr_tips_addfriends">Поместите QR-код в квадрат, и он будет автоматически просканирован</string>
   <string name="quit">Выход</string>
   <string name="quit_another">%s семья покинута</string>
@@ -1778,7 +1780,7 @@ To activate your account, follow the
   <string name="save_edit">Сохранить</string>
   <string name="save_image">Сохранить изображение</string>
   <string name="save_image_data_failed">Ошибка сохранения данных обрезанного изображения：</string>
-  <string name="save_power_remmind">В настоящее время в режиме энергосбережения, безопасная зона не действует, измените в энергосбережении</string>
+  <string name="save_power_remmind">В настоящее время в режиме энергосбережения, безопасная зона не действует, измените режим в энергосбережении</string>
   <string name="save_power_remmind_206">В настоящее время в режиме энергосбережения зона безопасности не может действовать, измените в управлении устройством</string>
   <string name="save_szone_message">Сохранение данных .......</string>
   <string name="save_update">Сохранить изменения</string>
@@ -1851,7 +1853,7 @@ To activate your account, follow the
   <string name="search_watch_ing">Поиск……</string>
   <string name="search_watch_list">Рузельтаты поиска</string>
   <string name="search_wifi_already_setted">[добавлен]</string>
-  <string name="search_wifi_none_phone">Wi-Fi не ищется или Wi-Fi на телефоне не включен</string>
+  <string name="search_wifi_none_phone">Wi-Fi не обнаружен или Wi-Fi на телефоне не включен</string>
   <string name="search_wifi_none_watch">Wi-Fi не обнаружен или Wi-Fi на часах не включен</string>
   <string name="search_wifi_not_support">[Не поддерживается]</string>
   <string name="search_wifi_not_support_reason">Не поддерживает шифрование и Wi-Fi типа 5G</string>
@@ -1865,11 +1867,11 @@ To activate your account, follow the
   <string name="security_watch_position">（Расположение часов）</string>
   <string name="security_watch_position_another_name">Уже существует, пожалуйста, введите другое имя</string>
   <string name="security_xiaoqu">Сообщество</string>
-  <string name="security_zone">Геозабор</string>
+  <string name="security_zone">Геозоны</string>
   <string name="security_zone_default_home">Местоположение дома</string>
   <string name="security_zone_default_info">Уведомление при пересечении границ</string>
   <string name="security_zone_default_school">Местоположения школы</string>
-  <string name="security_zone_default_setting">Уст.</string>
+  <string name="security_zone_default_setting">Наст.</string>
   <string name="security_zone_error1">Пожалуйста, проверьте введенное имя</string>
   <string name="security_zone_guidance">Добавить радиус</string>
   <string name="security_zone_home">Дом</string>
@@ -1880,7 +1882,7 @@ To activate your account, follow the
   <string name="security_zone_school">Школа</string>
   <string name="security_zone_setting_distance_tip">В настоящее время безопасная зона составляет менее 200 метров, что может привести к ложным тревогам. Пожалуйста, пользуйтесь осторожно</string>
   <string name="security_zone_settings">Настройка зоны охраны</string>
-  <string name="security_zone_title">Установите местоположение вашего дома и школы. Когда ребенок войдет или выйдет из зоны, придет уведомление. Вы можете узнать статус безопасности в режиме реального времени, не находясь рядом (небольшие зоны безопасности подвержены ложным срабатываниям, рекомендуется отрегулировать от 200 метров и более)</string>
+  <string name="security_zone_title">Установите местоположение вашего дома и школы. Когда ребенок войдет или выйдет из зоны, придет уведомление. Вы можете узнать статус безопасности в режиме реального времени (небольшие зоны безопасности подвержены ложным срабатываниям, рекомендуется отрегулировать от 200 метров и более)</string>
   <string name="sedentary_silence_str">Без напоминаний в часы занятий</string>
   <string name="sedentary_str">Сидячие напоминания</string>
   <string name="sedentary_tips_str">Часы бездействуют в течение часа и будут вибрировать, чтобы напомнить</string>
@@ -1953,7 +1955,7 @@ To activate your account, follow the
   <string name="setted_wifi_none">Вы не добавили WiFi</string>
   <string name="setting">Настройки</string>
   <string name="setting_apnconfig">Настройки APN</string>
-  <string name="setting_app_update">Мобильное приложение (перевод - Didjer and k@@):</string>
+  <string name="setting_app_update">Мобильное приложение (Перевод: 4pda - Didjer, Sanek200779):</string>
   <string name="setting_auto_answer">Настройка автоответа</string>
   <string name="setting_babyinfo">Ребенок</string>
   <string name="setting_calllog">Звонки</string>
@@ -1965,14 +1967,14 @@ To activate your account, follow the
   <string name="setting_family_wifi">Домашний WiFi</string>
   <string name="setting_family_wifi_desc">Настройка домашнего WiFi может помочь повысить точность позиционирования часов и сэкономить трафик часов</string>
   <string name="setting_family_wifi_desc2">Настройте Wi-Fi дома или рядом с домом, чтобы определять, дома ли ребенок</string>
-  <string name="setting_faq">Вопросы</string>
+  <string name="setting_faq">FAQ(Китай)</string>
   <string name="setting_home">Семья</string>
   <string name="setting_map">Карта</string>
   <string name="setting_more">Больше настроек...</string>
   <string name="setting_report_fault">Отчет о неисправности</string>
   <string name="setting_report_fault_text">Часы будут автоматически регистрировать журнал ошибок и должны вручную включить журнал в меню настроек часов</string>
   <string name="setting_sos_sms">Настройки сообщения SOS</string>
-  <string name="setting_sos_sms_text">SOS оповещение отправит СМС администратору</string>
+  <string name="setting_sos_sms_text">SOS оповещение отправит SMS администратору</string>
   <string name="setting_watch_about">Инфо</string>
   <string name="setting_watch_fcm">Анти-зависимость</string>
   <string name="setting_watch_loss">Сообщить о потере часов</string>
@@ -2023,9 +2025,9 @@ To activate your account, follow the
   <string name="sms_notice">SMS сообщения</string>
   <string name="sms_notification">%1$s отправил SMS %2$s</string>
   <string name="sos_str">Экстренный вызов для получения помощи</string>
-  <string name="spam_message">Перехват смс</string>
-  <string name="spam_sms">Детали смс</string>
-  <string name="spam_sms_info">Перехват SMS контролирует только приложение, чтобы блокировать спам-сообщения, а контроль SMS на часах должен быть установлен в пункте Белый список СМС</string>
+  <string name="spam_message">Перехват SMS</string>
+  <string name="spam_sms">Детали SMS</string>
+  <string name="spam_sms_info">Перехват SMS контролирует только приложение, чтобы блокировать спам-сообщения, а контроль SMS на часах должен быть установлен в пункте Белый список SMS</string>
   <string name="spam_sms_info_old">Блокировка SMS контролирует только приложение, чтобы блокировать спам-сообщения</string>
   <string name="sport_aver_hint">Средний</string>
   <string name="sport_chall_detail_desc0" formatted="false">"%s достигнута цель %s！
@@ -2185,7 +2187,7 @@ To activate your account, follow the
   <string name="synced">Синхронизировано</string>
   <string name="synch_szone_message">Синхронизация данных......</string>
   <string name="system_message">Системное сообщение для %s</string>
-  <string name="system_message_title">Сервисное сообщение</string>
+  <string name="system_message_title">Сервисные сообщения</string>
   <string name="system_notice">Системная информация</string>
   <string name="take_watch_photo">Фотосъемка</string>
   <string name="takephoto_confirm_msg">Часы сделают снимок. При нормальной скорости Интернет Вы получите фотографию в течение одной минуты</string>
@@ -2308,7 +2310,7 @@ To activate your account, follow the
   <string name="unbind_xiaomi_netdisk_tips">После отсоединения текущего аккаунта MiHome приложение не сможет просматривать фотографии на часах и отменять синхронизацию.(Не используя облачный сервис Xiaomi в течение года удалит облачные фотографии,доступ к которым вы сможете получить после отвязки mi.com Управление фотографиями）</string>
   <string name="unbinding">Отвязываю</string>
   <string name="unbounded">Отвязано</string>
-  <string name="unit_hour">Час.</string>
+  <string name="unit_hour">час.</string>
   <string name="unit_kiloCard_with_num">%s ккал.</string>
   <string name="unit_kilometer">" км."</string>
   <string name="unit_kilometer_with_number">%s км.</string>
@@ -2504,7 +2506,7 @@ To activate your account, follow the
   <string name="watch_poweroff_prompt">Выключены</string>
   <string name="watch_quit_family" formatted="false">%s вышел %s</string>
   <string name="watch_register_network_error">Не удалось зарегистрироваться в сети</string>
-  <string name="watch_shut_down_rightnow">Выключить</string>
+  <string name="watch_shut_down_rightnow">Выключить </string>
   <string name="watch_state_collison">Обнаружение столкновений</string>
   <string name="watch_state_flight">Часы в спящем режиме</string>
   <string name="watch_state_flight_already">"Спящий режим. 
@@ -2605,7 +2607,7 @@ To activate your account, follow the
   <string name="ximalaya_download_end">, это займет несколько минут, загрузить?</string>
   <string name="ximalaya_download_end_sw502">, это займет несколько минут, загрузить?</string>
   <string name="ximalaya_download_finish_new">История была добавлена в список загрузки, время загрузки завист от качества сети, подождите несколько минут, чтобы слушать</string>
-  <string name="ximalaya_get_story_album">Сборник списка историй</string>
+  <string name="ximalaya_get_story_album">Загрузка контента (можно выбрать EN-английские песни для загрузки в часы)</string>
   <string name="ximalaya_get_story_list">Получение списка историй</string>
   <string name="ximalaya_hot_focus">Популярные</string>
   <string name="ximalaya_mult_no_story_list">Отсутствуют истории или сеть</string>
@@ -2646,7 +2648,7 @@ To activate your account, follow the
   <string name="ximalaya_story_settings">Настройки рассказчика</string>
   <string name="ximalaya_story_sync_data">Синхронизация данных</string>
   <string name="ximalaya_story_total">Всего %s</string>
-  <string name="ximalaya_story_watch_track">Список историй, загруженных в часы</string>
+  <string name="ximalaya_story_watch_track">Список контента, загруженного в часы</string>
   <string name="ximalaya_story_watch_track_7xx">Управление историями</string>
   <string name="ximalaya_stroy_count_limit">Количество сохраненных историй не должно превышать 50</string>
   <string name="ximalaya_stroy_download_title">Загрузить %s на часы</string>
@@ -2654,23 +2656,23 @@ To activate your account, follow the
   <string name="ximalaya_stroy_repeat_download">Повторите загрузку %s</string>
   <string name="xun_purpose">Замечательные технологии, сопутствующие росту</string>
   <string name="xun_store">XUN STORE</string>
-  <string name="xunscore_app_dwn">Скачать приложени</string>
+  <string name="xunscore_app_dwn">Скачать приложение</string>
   <string name="xunscore_app_dwn_start">Начать загрузку</string>
-  <string name="xunscore_app_dwn_success">Скачать приложение</string>
+  <string name="xunscore_app_dwn_success">Загружено</string>
   <string name="xunscore_app_dwn_title">Скачать</string>
   <string name="xunscore_get_bonus_success">Награда за очки</string>
-  <string name="xunscore_gmall">Поинт Молл</string>
-  <string name="xunscore_score_desc">Мои оценки</string>
-  <string name="xunscore_see_location_success">Расположение просмотров 3/3</string>
-  <string name="xunscore_send_message_success">Отправить сообщение 5/5</string>
-  <string name="xunscore_signin_action">Войти сейчас</string>
+  <string name="xunscore_gmall">Магазин товаров за очки</string>
+  <string name="xunscore_score_desc">Мои очки</string>
+  <string name="xunscore_see_location_success">Просмотров локации 3/3</string>
+  <string name="xunscore_send_message_success">Отправлено сообщений 5/5</string>
+  <string name="xunscore_signin_action">Отметиться</string>
   <string name="xunscore_signin_already">Отметился</string>
   <string name="xunscore_signin_daily">Ежедневная регистрация</string>
-  <string name="xunscore_signin_daily_desc">(Зарегистрируйтесь на 3 дня / 7 дней, чтобы получить дополнительные преимущества)</string>
-  <string name="xunscore_signin_success">Ежедневная регистрация</string>
-  <string name="xunscore_task">Заработанные баллы</string>
-  <string name="xunscore_task_normal">Заканчивать</string>
-  <string name="xunscore_task_success">Полученный</string>
+  <string name="xunscore_signin_daily_desc">(Подарки 3 дня/7 дней)</string>
+  <string name="xunscore_signin_success">Ежедневная отметка</string>
+  <string name="xunscore_task">Заработанные очки</string>
+  <string name="xunscore_task_normal">Получить</string>
+  <string name="xunscore_task_success">Получен</string>
   <string name="xunscore_title">Очки регистрации</string>
   <string name="xunscore_video_play_success">Смотреть видео</string>
   <string name="xunscore_welfare_desc">Выплаченные пособия</string>
