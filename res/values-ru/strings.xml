@@ -158,14 +158,14 @@
   <string name="app_check_fail">Проверка приложения неуспешна, попробуйте еще!</string>
   <string name="app_close_photos">Синхронизация в облачное хранилище</string>
   <string name="app_close_photos_desc">Часы будут автоматически синхронизировать фотографии с облачным хранилищем после соединения с WiFi</string>
-  <string name="app_corporation_str">Copyright@2015-2020 Xiaoxun Technology Все права защищены</string>
+  <string name="app_corporation_str">Copyright@2015-2020 Xiaoxun Technology</string>
   <string name="app_detail">Детали приложения</string>
   <string name="app_feedback_detail_tips">Пожалуйста, опишите проблему подробно</string>
   <string name="app_feedback_tips">Пожалуйста, выберите проблему, возникшую при использовании</string>
   <string name="app_flow_hint">Следующие статистические данные о трафике приведены только для справки, фактическое использование трафика приложения оператор определяет самостоятельно</string>
   <string name="app_flow_name">Статистика трафика</string>
   <string name="app_install_wait">Ожидание установки</string>
-  <string name="app_intelligent_guard">%s Smart Guardian</string>
+  <string name="app_intelligent_guard">%s система защиты</string>
   <string name="app_jiesao">Введение в приложение</string>
   <string name="app_manage_add_interval">Добавить период</string>
   <string name="app_manage_detail_delete_info">Удалить период?</string>
@@ -380,7 +380,7 @@
   <string name="bind_wait">Ожидайте…</string>
   <string name="bind_watch">Связанные часы</string>
   <string name="bind_weight_height_tips">Для роста и веса используются значения по умолчанию. Мы не собираем соответствующую информацию, поэтому это повлияет на точность подсчета шагов.</string>
-  <string name="bing_with_phone_tip">Привязка номера телефона для получения дополнительной информации о часах и улучшения работы</string>
+  <string name="bing_with_phone_tip">Привязка номера телефона для получения дополнительной информации о часах и улучшения работы (если есть Китайский номер, иначе "ПРОПУСТИТЬ")</string>
   <string name="birthday">День рождения</string>
   <string name="blank_str" />
   <string name="blu_connect_lost">Bluetooth-соединение отключено</string>
@@ -757,7 +757,7 @@ Please send this code to the technician."</string>
   <string name="function_control_else">Другое</string>
   <string name="function_control_eng">Словарь</string>
   <string name="function_control_friends">Друзья</string>
-  <string name="function_control_imgrecognition">Идентификация растений</string>
+  <string name="function_control_imgrecognition">Распознавание</string>
   <string name="function_control_navigation">Навигация</string>
   <string name="function_control_pets">Питомец</string>
   <string name="function_control_watchstop">Секундомер</string>
@@ -966,7 +966,7 @@ progress: %d%%"</string>
   <string name="location_district_zone">Область</string>
   <string name="location_message">Геолокация %s</string>
   <string name="location_notice">Сообщения с точками местоположения</string>
-  <string name="location_refresh">Обновить</string>
+  <string name="location_refresh">Обн.</string>
   <string name="location_time_one_minute">В течении 1 минуты</string>
   <string name="location_time_x_day">%d дней назад</string>
   <string name="location_time_x_hour">%d часов назад</string>
@@ -1627,11 +1627,11 @@ To activate your account, follow the
  · Получите разрешения камеры для вашего устройства
 Получите разрешения камеры для вашего устройства для отправки графических сообщений и видеозвонков
 
- Для получения дополнительной информации, пожалуйста, внимательно прочитайте 《Политика конфиденциальности》 и 《Пользовательсоке соглашение》，спасибо за ваше доверие"</string>
-  <string name="privacy_prompt_login_desc">Ознакомились и согласны с 《Политика конфиденциальности》 и 《Пользовательсоке соглашение》</string>
+ Для получения дополнительной информации, пожалуйста, внимательно прочитайте 《Политика конфиденциальности》 и 《Пользовательское соглашение》，спасибо за ваше доверие"</string>
+  <string name="privacy_prompt_login_desc">Ознакомлен и согласен с 《ПК》 и 《ПС》</string>
   <string name="privacy_prompt_protection_policy">《Политика конфиденциальности》</string>
-  <string name="privacy_prompt_toast_desc">Пожалуйста, проверьте и согласитесь с Политикой конфиденциальности и Соглашением об обслуживании пользователей</string>
-  <string name="privacy_prompt_user_service">《Пользовательсоке соглашение》</string>
+  <string name="privacy_prompt_toast_desc">Пожалуйста, проверьте и согласитесь с Политикой конфиденциальности и Пользовательское соглашение</string>
+  <string name="privacy_prompt_user_service">《Пользовательское соглашение》</string>
   <string name="prompt">Предупреждение</string>
   <string name="prompt_not_saved">Изменения не сохраняться, Вы подтверждаете?</string>
   <string name="prompt_other">Советы：</string>
@@ -2219,7 +2219,7 @@ To activate your account, follow the
   <string name="title_keep_wifilist">Настройки подключения WiFi</string>
   <string name="title_saved_wifilist">Сохраненные WiFi</string>
   <string name="title_watch_update">Обновление прошивки</string>
-  <string name="to_where">Навигация</string>
+  <string name="to_where">Нави</string>
   <string name="to_where_location_fail">Не удалось определить местоположение телефона, повторите попытку</string>
   <string name="to_where_name">Страницы навигации</string>
   <string name="today">Сегодня</string>
@@ -2236,7 +2236,7 @@ To activate your account, follow the
   <string name="trace_getting_data">Обновление данных за день</string>
   <string name="trace_grasp_bottom_txt">Текущее состояние захвата</string>
   <string name="trace_is_anim_stop">Вы уверены, что хотите остановить воспроизведение трека?</string>
-  <string name="trace_real_time">Отслеживание в реальном времени</string>
+  <string name="trace_real_time">Слеж. онлайн</string>
   <string name="trace_retry_prompt_msg">Нажмите, чтобы обновить</string>
   <string name="trace_retry_prompt_title">Информация о треке не получена</string>
   <string name="trace_to_close_msg">Отключить отслеживание в режиме реального времени?</string>
@@ -2282,7 +2282,7 @@ To activate your account, follow the
   <string name="tt_request_permission_descript_location">Информация о местонахождении</string>
   <string name="tt_request_permission_descript_read_phone_state">Сделать звонок</string>
   <string name="tt_reward_feedback">Обратная связь</string>
-  <string name="tt_reward_screen_skip_tx">СКРЫТЬ</string>
+  <string name="tt_reward_screen_skip_tx">ПРОПУСТИТЬ</string>
   <string name="tt_splash_skip_tv_text">3s | Пропустить</string>
   <string name="tt_tip">Предупреждение</string>
   <string name="tt_unlike">Незаинтересованный</string>
@@ -2654,7 +2654,7 @@ To activate your account, follow the
   <string name="ximalaya_stroy_download_title">Загрузить %s на часы</string>
   <string name="ximalaya_stroy_memory_lower">Недостаточно места в часах</string>
   <string name="ximalaya_stroy_repeat_download">Повторите загрузку %s</string>
-  <string name="xun_purpose">Замечательные технологии, сопутствующие росту</string>
+  <string name="xun_purpose">Это окно системы защиты. Оставьте сообщение на английском языке в настройках приложения, меню инфо, пункт предложения о необходимости перевода приложения. А это окно просто скройте в настройках телефона.</string>
   <string name="xun_store">XUN STORE</string>
   <string name="xunscore_app_dwn">Скачать приложение</string>
   <string name="xunscore_app_dwn_start">Начать загрузку</string>
@@ -2668,7 +2668,7 @@ To activate your account, follow the
   <string name="xunscore_signin_action">Отметиться</string>
   <string name="xunscore_signin_already">Отметился</string>
   <string name="xunscore_signin_daily">Ежедневная регистрация</string>
-  <string name="xunscore_signin_daily_desc">(Подарки 3 дня/7 дней)</string>
+  <string name="xunscore_signin_daily_desc">(Подарки за 3 дня/7 дней подряд)</string>
   <string name="xunscore_signin_success">Ежедневная отметка</string>
   <string name="xunscore_task">Заработанные очки</string>
   <string name="xunscore_task_normal">Получить</string>
