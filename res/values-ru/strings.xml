@@ -84,7 +84,7 @@
   <string name="admin_denied_bind_request">Администратор отклонил запрос на привязку</string>
   <string name="admin_id">ID аккаунта администратора：</string>
   <string name="admin_set_watch_number">Свяжитесь с администратором аккаунта</string>
-  <string name="adview_cancle_focus">СКРЫТЬ</string>
+  <string name="adview_cancle_focus">ПРОПУСТИТЬ</string>
   <string name="adview_net_error">Ошибка сети, повторите попытку позднее</string>
   <string name="agc_039385256A8E064A3FBA0E5DC382B8F03961789D7A12A9D0BB248FFEDD6D1470">0052D91B80EB91A8756D7E598770882052F7EA118010B565771A930104C8711A1F5E8C4EA1DD02B867043438AE651A091ED5C0D426FA5E3AF52BB2CD6842869CA73090A1FCCF588E9C63BE4F6326843C3C</string>
   <string name="agc_109B7B0344C0EDE50A1F3332C0015C78281E801719F522B4F20FDF815A5BCC3F">00212D1CFA6AE6AF388220B692BC2093A2CCC470EF577E4754EDB5D3D1F545B46BACBF921C23AABAF3E03A7974B1A13EA88B3DD68A9FD9B08A35A7E393FF4E9150B2AF6C085F9BF46832F23A971495FB7E2436BE698B073D660D13A8E74341F83B</string>
@@ -2282,7 +2282,7 @@ To activate your account, follow the
   <string name="tt_request_permission_descript_location">Информация о местонахождении</string>
   <string name="tt_request_permission_descript_read_phone_state">Сделать звонок</string>
   <string name="tt_reward_feedback">Обратная связь</string>
-  <string name="tt_reward_screen_skip_tx">ПРОПУСТИТЬ</string>
+  <string name="tt_reward_screen_skip_tx">СКРЫТЬ</string>
   <string name="tt_splash_skip_tv_text">3s | Пропустить</string>
   <string name="tt_tip">Предупреждение</string>
   <string name="tt_unlike">Незаинтересованный</string>
