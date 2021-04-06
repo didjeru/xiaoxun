@@ -1627,11 +1627,11 @@ To activate your account, follow the
  · Получите разрешения камеры для вашего устройства
 Получите разрешения камеры для вашего устройства для отправки графических сообщений и видеозвонков
 
- Для получения дополнительной информации, пожалуйста, внимательно прочитайте 《Политика конфиденциальности》 и 《Пользовательское соглашение》，спасибо за ваше доверие"</string>
+ Для получения дополнительной информации, пожалуйста, внимательно прочитайте 《ПК》 и 《ПС》，спасибо за ваше доверие"</string>
   <string name="privacy_prompt_login_desc">Ознакомлен и согласен с 《ПК》 и 《ПС》</string>
-  <string name="privacy_prompt_protection_policy">《Политика конфиденциальности》</string>
+  <string name="privacy_prompt_protection_policy">《ПК》</string>
   <string name="privacy_prompt_toast_desc">Пожалуйста, проверьте и согласитесь с Политикой конфиденциальности и Пользовательское соглашение</string>
-  <string name="privacy_prompt_user_service">《Пользовательское соглашение》</string>
+  <string name="privacy_prompt_user_service">《ПС》</string>
   <string name="prompt">Предупреждение</string>
   <string name="prompt_not_saved">Изменения не сохраняться, Вы подтверждаете?</string>
   <string name="prompt_other">Советы：</string>
@@ -2654,7 +2654,7 @@ To activate your account, follow the
   <string name="ximalaya_stroy_download_title">Загрузить %s на часы</string>
   <string name="ximalaya_stroy_memory_lower">Недостаточно места в часах</string>
   <string name="ximalaya_stroy_repeat_download">Повторите загрузку %s</string>
-  <string name="xun_purpose">Это окно системы защиты. Оставьте сообщение на английском языке в настройках приложения, меню инфо, пункт предложения о необходимости перевода приложения. А это окно просто скройте в настройках телефона.</string>
+  <string name="xun_purpose">Cкройте это сообщение в настройках телефона.</string>
   <string name="xun_store">XUN STORE</string>
   <string name="xunscore_app_dwn">Скачать приложение</string>
   <string name="xunscore_app_dwn_start">Начать загрузку</string>
